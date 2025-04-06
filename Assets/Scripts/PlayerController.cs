@@ -1,19 +1,20 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 
-public class sc : MonoBehaviour
+public class PlayerManager : MonoBehaviour
 {
-    private float speed = 5f;
+    public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 moveInput;
-    public CameraController cameraController;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        //Debug.Log("Start method called!");
         rb = GetComponent<Rigidbody2D>();
-        // Debug.Log("PlayerController initialized.");
     }
+
+
+    
 
     // Update is called once per frame
     void Update()
@@ -22,7 +23,7 @@ public class sc : MonoBehaviour
     }
 
     void Move()
-    {
+    {   
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
@@ -33,11 +34,8 @@ public class sc : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + moveInput * speed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
         // Debug.Log($"Player Position: {rb.position}");
-        if (cameraController)
-        {
-            cameraController.CheckCameraShift(rb.position);
-        }
     }
+
 }

@@ -14,13 +14,12 @@ public class FollowingCam : MonoBehaviour
 
     void LateUpdate()
     {
-        if (player != null)
-        {
-            // Calculate the target position
-            Vector3 targetPosition = player.position + offset;
+        
+        // Calculate the target position
+        Vector3 targetPosition = player.position + offset;
 
-            // Smoothly move the camera towards the target position
-            transform.position = Vector3.Lerp(transform.position, targetPosition, smoothSpeed * Time.deltaTime);
-        }
+        // Smoothly move the camera towards the target position
+        transform.position = Vector3.Lerp(transform.position, targetPosition, smoothSpeed * Time.deltaTime);
+    
     }
 }
