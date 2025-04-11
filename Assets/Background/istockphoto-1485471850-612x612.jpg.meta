@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b68d25eae4328e34d96266039e677d8a
+guid: aed864ee53944b24e86c572cfb0b76b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4537467284035472002
-    second: Standard_Farm_0
+      213: 1977141824786591356
+    second: istockphoto-1485471850-612x612_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Standard_Farm_0
+      name: istockphoto-1485471850-612x612_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1280
-        height: 1040
+        width: 612
+        height: 367
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28a04ec447258fe30800000000000000
-      internalID: 4537467284035472002
+      spriteID: c7ee8f8a308307b10800000000000000
+      internalID: 1977141824786591356
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Standard_Farm_0: 4537467284035472002
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
