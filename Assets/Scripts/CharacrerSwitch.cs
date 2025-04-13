@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class CharacrerSwitch : MonoBehaviour
 {
+    public static Transform ActivePlayer { get; private set; } // static reference to current player
+
     public GameObject[] characterPrefabs; // list of prefabs
     public FollowingCam cam;
 
@@ -33,6 +35,8 @@ public class CharacrerSwitch : MonoBehaviour
         {
             cam.player = currentCharacter.transform; // make sure camera follows current character
         }
+
+        ActivePlayer = currentCharacter.transform;
         Debug.Log($"Switched to character {index + 1}: {currentCharacter.name}");
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -57,4 +61,5 @@ public class CharacrerSwitch : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha2)) SwitchCharacter(1);
         if (Input.GetKeyDown(KeyCode.Alpha3)) SwitchCharacter(2);
     }
+
 }
