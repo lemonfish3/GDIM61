@@ -11,34 +11,8 @@ public class CharacrerSwitch : MonoBehaviour
     private GameObject currentCharacter; 
     private int currentIndex = 0;
     private Vector3 currentPosition;
+    
 
-    // called when player press numbers(1-3)
-    void SwitchCharacter(int index)
-    {   
-        // get position of the current character
-        if (currentCharacter != null) 
-        {
-            currentPosition = currentCharacter.transform.position;
-            currentCharacter.SetActive(false); // inactivate current character
-        }
-        else 
-        {
-            currentPosition = transform.position;
-        }
-
-        currentCharacter = characterInstances[index]; // update to current character
-        currentCharacter.transform.position = currentPosition; // update position
-        currentCharacter.SetActive(true); // set active
-        currentIndex = index; // update index
-        
-        if (cam != null)
-        {
-            cam.player = currentCharacter.transform; // make sure camera follows current character
-        }
-
-        ActivePlayer = currentCharacter.transform;
-        Debug.Log($"Switched to character {index + 1}: {currentCharacter.name}");
-    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -62,4 +36,33 @@ public class CharacrerSwitch : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3)) SwitchCharacter(2);
     }
 
+
+
+    // called when player press numbers(1-3)
+    void SwitchCharacter(int index)
+    {
+        // get position of the current character
+        if (currentCharacter != null)
+        {
+            currentPosition = currentCharacter.transform.position;
+            currentCharacter.SetActive(false); // inactivate current character
+        }
+        else
+        {
+            currentPosition = transform.position;
+        }
+
+        currentCharacter = characterInstances[index]; // update to current character
+        currentCharacter.transform.position = currentPosition; // update position
+        currentCharacter.SetActive(true); // set active
+        currentIndex = index; // update index
+
+        if (cam != null)
+        {
+            cam.player = currentCharacter.transform; // make sure camera follows current character
+        }
+
+        ActivePlayer = currentCharacter.transform;
+        Debug.Log($"Switched to character {index + 1}: {currentCharacter.name}");
+    }
 }

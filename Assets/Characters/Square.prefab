@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7760383330632001099}
   - component: {fileID: 794580296128769929}
   - component: {fileID: 184216615981244485}
+  - component: {fileID: 1369820391437896515}
   - component: {fileID: 7663771358464316490}
   m_Layer: 0
   m_Name: Square
@@ -116,6 +117,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1369820391437896515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7072563830130419246}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604fbfd0ee59e5646830f1abc46af8d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  healthText: {fileID: 0}
+  damageInterval: 1
+  damagePerSecond: 10
+  damageRadius: 1
+  gameManager: {fileID: 0}
 --- !u!114 &7663771358464316490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,3 +149,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  weapon: {fileID: 3126371534921854924, guid: 651dba6b5d5a4b0408969ecc57f88ba9, type: 3}

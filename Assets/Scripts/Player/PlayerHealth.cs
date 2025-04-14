@@ -8,9 +8,11 @@ public class PlayerHealth : MonoBehaviour
     public float currentHealth;
 
     public TextMeshProUGUI healthText;
+    public float damageInterval = 1f;
     public float damagePerSecond = 10f;
-    public float damageRadius = 1.5f;
+    public float damageRadius = 1f;
 
+    private float timer = 0f;
     private GameObject[] enemies;
 
     public GameManager gameManager;
@@ -41,6 +43,7 @@ public class PlayerHealth : MonoBehaviour
     }
     void Update()
     {
+        timer += Time.deltaTime;
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
         foreach (GameObject enemy in enemies)
         {
@@ -48,9 +51,10 @@ public class PlayerHealth : MonoBehaviour
             {
                 Transform current = CharacrerSwitch.ActivePlayer;
                 float dist = Vector2.Distance(current.position, enemy.transform.position);
-                if (dist < damageRadius)
+                if (dist < damageRadius && timer >= damageInterval)
                 {
-                    TakeDamage(damagePerSecond * Time.deltaTime);
+                    TakeDamage(damagePerSecond);
+                    timer = 0f;
                 }
             }
         }
