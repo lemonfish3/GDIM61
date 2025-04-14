@@ -20,8 +20,9 @@ public class Bullet : MonoBehaviour
     {
         if (other.CompareTag("Enemy")) // or other collision logic
         {
+            Debug.Log("Bullet hit enemy!");
+            Destroy(other.gameObject);  // destroy the enemy
             Destroy(gameObject);
-            // You can add damage logic here
         }
     }
 }

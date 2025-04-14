@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    public float speed = 3f;
+    public float speed = 2f;
     public float spawnRadius = 10f;
 
     private Camera cam;
