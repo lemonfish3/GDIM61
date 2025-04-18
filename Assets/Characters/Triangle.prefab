@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2651153938267581008}
   - component: {fileID: 6176694758642336754}
   - component: {fileID: 1052019111664781232}
+  - component: {fileID: -1465899460652853792}
   - component: {fileID: 1073496055161064193}
   m_Layer: 0
   m_Name: Triangle
@@ -136,6 +137,23 @@ MonoBehaviour:
   damagePerSecond: 10
   damageRadius: 1
   gameManager: {fileID: 0}
+--- !u!114 &-1465899460652853792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633370305967772840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c34b3b9cad01194d82db6622d64fde3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRadius: 2
+  attackKey: 32
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!114 &1073496055161064193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,4 +167,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 7
-  weapon: {fileID: 3126371534921854924, guid: 651dba6b5d5a4b0408969ecc57f88ba9, type: 3}
+  lastMoveDirection: {x: 1, y: 0}

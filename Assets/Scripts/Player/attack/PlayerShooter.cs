@@ -1,10 +1,11 @@
 using UnityEngine;
 
 public class PlayerShooter : MonoBehaviour
-{
+{   
     public GameObject bulletPrefab;
     public Transform firePoint;
     public float shootCooldown = 0.5f;
+    public KeyCode fireKey = KeyCode.Q;
 
     private float lastShotTime;
     private PlayerController playerController;
@@ -21,7 +22,7 @@ public class PlayerShooter : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && Time.time - lastShotTime >= shootCooldown)
+        if (Input.GetKeyDown(fireKey) && Time.time - lastShotTime >= shootCooldown)
         {
             Vector2 shootDirection = playerController.lastMoveDirection;
 
