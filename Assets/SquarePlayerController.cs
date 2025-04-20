@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+
 public class SquarePlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
@@ -16,7 +17,7 @@ public class SquarePlayerController : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
-        if(Input.GetMouseButtonDown(0)) 
+        if (Input.GetKeyDown(KeyCode.Q)) 
         {
             gun.Fire();
         }
@@ -28,6 +29,7 @@ public class SquarePlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
+
         Vector2 aimDirection = mousePosition - rb.position;
         float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
         rb.rotation = aimAngle;
