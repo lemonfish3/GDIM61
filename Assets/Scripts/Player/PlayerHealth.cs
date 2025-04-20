@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public bool shieldActive = false;
+
     public float maxHealth = 100;
     public float currentHealth;
 
@@ -43,14 +45,16 @@ public class PlayerHealth : MonoBehaviour
     }
     void Update()
     {
+        if (transform != CharacrerSwitch.ActivePlayer) return;
+
         timer += Time.deltaTime;
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
         foreach (GameObject enemy in enemies)
         {
             if (enemy != null)
             {
-                Transform current = CharacrerSwitch.ActivePlayer;
-                float dist = Vector2.Distance(current.position, enemy.transform.position);
+                
+                float dist = Vector2.Distance(transform.position, enemy.transform.position);
                 if (dist < damageRadius && timer >= damageInterval)
                 {
                     TakeDamage(damagePerSecond);
@@ -71,6 +75,12 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        if (shieldActive)
+        {
+            Debug.Log("shield active");
+            return;
+        }
+
         currentHealth -= damage;
         currentHealth = Mathf.Max(currentHealth, 0);
         UpadateHealthUI();
@@ -80,5 +90,10 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log("player died");
             gameManager.GameOver();
         }
+    }
+
+    public void ForceUpdateUI()
+    {
+        UpadateHealthUI();
     }
 }

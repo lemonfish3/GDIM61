@@ -1,20 +1,32 @@
 using UnityEngine;
 using TMPro;
 
+
+[System.Serializable]
+public struct DialogueLine
+{
+    public string speaker;
+
+    [TextArea(2, 5)]
+    public string line;
+}
+
 public class NPCDialogue : MonoBehaviour
 {
-    [TextArea(2, 5)]
-    public string[] dialogueLines;
+    public DialogueLine[] dialogueLines;
 
-    public KeyCode dialogueKey = KeyCode.Space;
+    public KeyCode dialogueKey = KeyCode.X;
     public float displayRadius = 1.5f;
     public GameObject dialoguePanel;
     public TextMeshProUGUI dialogueText;
+    public TextMeshProUGUI speakerName;
     public GameObject talkPromptUI;
+    public GameObject powerUpPanel;
 
     private int currentLine = 0;
     private bool playerInRange = false;
     private bool dialogueActive = false;
+    private bool justStartedDialogue = false;
 
     private void Start()
     {
@@ -28,28 +40,51 @@ public class NPCDialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if (CharacrerSwitch.ActivePlayer == null) return;
+        if (CharacrerSwitch.ActivePlayer == null) return;
 
         float distance = Vector2.Distance(transform.position, CharacrerSwitch.ActivePlayer.position);
         playerInRange = distance <= displayRadius;
 
-        if (playerInRange && !dialogueActive && Input.GetKeyDown(dialogueKey))
+        if (playerInRange && !dialogueActive)// set ui active if player in range
+            talkPromptUI?.SetActive(true);
+        else
+            talkPromptUI?.SetActive(false);
+
+
+        if (playerInRange && !dialogueActive && Input.GetKeyDown(dialogueKey)) // set up dialogue panel
         {
-            
             StartDialogue();
         }
 
-        if (Input.GetMouseButtonDown(0)  && dialogueActive)
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(dialogueKey)  && dialogueActive && !justStartedDialogue)
         {
             AdvanceDialogue();
+        }
+
+        if (justStartedDialogue && Input.GetKeyDown(dialogueKey)) // make sure press key won't skip lines
+        {
+            justStartedDialogue = false;
+        }
+    }
+
+    void DisplayCurrentLine()
+    {
+        dialogueText.text = dialogueLines[currentLine].line;
+        if (speakerName != null)
+        {
+            speakerName.text = dialogueLines[currentLine].speaker;
         }
     }
 
     void StartDialogue()
     {
         dialogueActive = true; 
+        currentLine = 0;
         dialoguePanel.SetActive(true);
-        dialogueText.text = dialogueLines[currentLine];
+        powerUpPanel.SetActive(false);
+        // talkPromptUI.SetActive(false);
+        DisplayCurrentLine();
+        justStartedDialogue = true;
         Debug.Log($"first line{currentLine}");
     }
 
@@ -58,7 +93,7 @@ public class NPCDialogue : MonoBehaviour
         currentLine++;
         if (currentLine < dialogueLines.Length)
         {
-            dialogueText.text = dialogueLines[currentLine];
+            DisplayCurrentLine();
         }
         else
         {
@@ -72,6 +107,7 @@ public class NPCDialogue : MonoBehaviour
         dialogueActive=false;
         currentLine = 0;
         dialoguePanel.SetActive(false);
+        powerUpPanel.SetActive(true );
     }
 
     private void OnDrawGizmosSelected()
