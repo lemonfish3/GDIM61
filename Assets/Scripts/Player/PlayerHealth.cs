@@ -18,12 +18,13 @@ public class PlayerHealth : MonoBehaviour
     private GameObject[] enemies;
 
     public GameManager gameManager;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public HealthBar healthBar;
+
     void Start()
     {
-
         currentHealth = maxHealth;
-        // Automatically find the UI Text in the scene
+
+        // Assign UI text if not set
         if (healthText == null)
         {
             GameObject uiText = GameObject.Find("HP");
@@ -32,17 +33,23 @@ public class PlayerHealth : MonoBehaviour
                 Debug.Log("find ui");
                 healthText = uiText.GetComponent<TextMeshProUGUI>();
             }
-                
         }
 
+        // Assign GameManager if not set
         if (gameManager == null)
         {
             gameManager = FindFirstObjectByType<GameManager>();
         }
 
+        // Assign HealthBar if not set
+        if (healthBar == null)
+        {
+            healthBar = FindFirstObjectByType<HealthBar>();
+        }
+
         UpadateHealthUI();
-        
     }
+
     void Update()
     {
         if (transform != CharacrerSwitch.ActivePlayer) return;
@@ -53,7 +60,6 @@ public class PlayerHealth : MonoBehaviour
         {
             if (enemy != null)
             {
-                
                 float dist = Vector2.Distance(transform.position, enemy.transform.position);
                 if (dist < damageRadius && timer >= damageInterval)
                 {
@@ -85,8 +91,18 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = Mathf.Max(currentHealth, 0);
         UpadateHealthUI();
 
+        if (healthBar != null)
+        {
+            healthBar.UpdateHealth(currentHealth, maxHealth);
+        }
+
         if (currentHealth <= 0)
         {
+            if (healthBar != null)
+            {
+                healthBar.UpdateHealth(0f, maxHealth); // Force exact zero
+            }
+
             Debug.Log("player died");
             gameManager.GameOver();
         }
