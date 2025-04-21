@@ -55,6 +55,7 @@ Material:
     - _UIMaskSoftnessX: 1
     - _UIMaskSoftnessY: 1
     m_Colors:
+    - _CharacterColor: {r: 1, g: 1, b: 1, a: 0}
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
     - _HealthColor1: {r: 0.30371127, g: 0.9420696, b: 0.99056596, a: 0}
     - _HealthColor2: {r: 0, g: 0.67546254, b: 0.6886792, a: 0}
