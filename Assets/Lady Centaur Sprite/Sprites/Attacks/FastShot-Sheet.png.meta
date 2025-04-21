@@ -1,0 +1,1017 @@
+fileFormatVersion: 2
+guid: fd8619f178e6f48ecae09cf40fb1c434
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6348638234130931670
+    second: FastShot-Sheet_0
+  - first:
+      213: 393128125707906194
+    second: FastShot-Sheet_1
+  - first:
+      213: 6637439477752279050
+    second: FastShot-Sheet_2
+  - first:
+      213: 927164323432208778
+    second: FastShot-Sheet_3
+  - first:
+      213: 4999019269226561370
+    second: FastShot-Sheet_4
+  - first:
+      213: -4077009707940786198
+    second: FastShot-Sheet_5
+  - first:
+      213: -8276958998220655711
+    second: FastShot-Sheet_6
+  - first:
+      213: 4140730207756902779
+    second: FastShot-Sheet_7
+  - first:
+      213: -450895995359291333
+    second: FastShot-Sheet_8
+  - first:
+      213: 7872680070792746970
+    second: FastShot-Sheet_9
+  - first:
+      213: 4881072097451274316
+    second: FastShot-Sheet_10
+  - first:
+      213: 2930441549292139636
+    second: FastShot-Sheet_11
+  - first:
+      213: -1271839716096196043
+    second: FastShot-Sheet_12
+  - first:
+      213: -7990514753378989754
+    second: FastShot-Sheet_13
+  - first:
+      213: -5975254842799936522
+    second: FastShot-Sheet_14
+  - first:
+      213: -3618054056747562472
+    second: FastShot-Sheet_15
+  - first:
+      213: 6249171362311544516
+    second: FastShot-Sheet_16
+  - first:
+      213: -9216326533389247241
+    second: FastShot-Sheet_17
+  - first:
+      213: 4374592528421934441
+    second: FastShot-Sheet_18
+  - first:
+      213: -2075355534237390580
+    second: FastShot-Sheet_19
+  - first:
+      213: 6482463802600772012
+    second: FastShot-Sheet_20
+  - first:
+      213: -2975554249012229219
+    second: FastShot-Sheet_21
+  - first:
+      213: -3923751621320980653
+    second: FastShot-Sheet_22
+  - first:
+      213: 3239225370286025897
+    second: FastShot-Sheet_23
+  - first:
+      213: 1840643990705387549
+    second: FastShot-Sheet_24
+  - first:
+      213: 2567197135311599859
+    second: FastShot-Sheet_25
+  - first:
+      213: -7008026074991426682
+    second: FastShot-Sheet_26
+  - first:
+      213: 6655734482374146168
+    second: FastShot-Sheet_27
+  - first:
+      213: 7968920372650937414
+    second: FastShot-Sheet_28
+  - first:
+      213: 7582943334775985129
+    second: FastShot-Sheet_29
+  - first:
+      213: -1176116931350554857
+    second: FastShot-Sheet_30
+  - first:
+      213: -4567373622497708292
+    second: FastShot-Sheet_31
+  - first:
+      213: 8295213789156371762
+    second: FastShot-Sheet_32
+  - first:
+      213: 5815274456453777245
+    second: FastShot-Sheet_33
+  - first:
+      213: -6675199398020985198
+    second: FastShot-Sheet_34
+  - first:
+      213: 7820355215225250253
+    second: FastShot-Sheet_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FastShot-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 191
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20a92f992b15e7a0800000000000000
+      internalID: -6348638234130931670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 191
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ce80c82fba47500800000000000000
+      internalID: 393128125707906194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 191
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a003491d90cec1c50800000000000000
+      internalID: 6637439477752279050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 191
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8997923a03fddc00800000000000000
+      internalID: 927164323432208778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 191
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ff4971a85106540800000000000000
+      internalID: 4999019269226561370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 191
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aefce54854d8b67c0800000000000000
+      internalID: -4077009707940786198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 191
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3b592f4a5522d80800000000000000
+      internalID: -8276958998220655711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 191
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7164187f24d67930800000000000000
+      internalID: 4140730207756902779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 191
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3896fd2b781eb9f0800000000000000
+      internalID: -450895995359291333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 191
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad716e920d0614d60800000000000000
+      internalID: 7872680070792746970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 191
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4077ab263d0db340800000000000000
+      internalID: 4881072097451274316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 191
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4747a9c10150ba820800000000000000
+      internalID: 2930441549292139636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 191
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5324ad64484895ee0800000000000000
+      internalID: -1271839716096196043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 191
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649c358da2dfb1190800000000000000
+      internalID: -7990514753378989754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 127
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb2a74f061a31da0800000000000000
+      internalID: -5975254842799936522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 127
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a866131071acdc0800000000000000
+      internalID: -3618054056747562472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 127
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce9f179e3489b650800000000000000
+      internalID: 6249171362311544516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 127
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc935b19d7091080800000000000000
+      internalID: -9216326533389247241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965daad1abca5bc30800000000000000
+      internalID: 4374592528421934441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 144
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09a327232bd233e0800000000000000
+      internalID: -2075355534237390580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 127
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1d85f9b7656f950800000000000000
+      internalID: 6482463802600772012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 127
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bc8b9fc25b4b6d0800000000000000
+      internalID: -2975554249012229219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 127
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357cc4870b80c89c0800000000000000
+      internalID: -3923751621320980653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 127
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ace457ef4a04fc20800000000000000
+      internalID: 3239225370286025897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 127
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18b3f715f74b8910800000000000000
+      internalID: 1840643990705387549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 63
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8f5a6613480a320800000000000000
+      internalID: 2567197135311599859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 63
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68306773a6d7ebe90800000000000000
+      internalID: -7008026074991426682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 63
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878ba358f3bed5c50800000000000000
+      internalID: 6655734482374146168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 63
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c8b379bda479e60800000000000000
+      internalID: 7968920372650937414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 63
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e31d3d69c60c3960800000000000000
+      internalID: 7582943334775985129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 63
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717178cd1e79dafe0800000000000000
+      internalID: -1176116931350554857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6f88aa3ed6d90c0800000000000000
+      internalID: -4567373622497708292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d6696cdf48e1370800000000000000
+      internalID: 8295213789156371762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d578458be4104b050800000000000000
+      internalID: 5815274456453777245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 2
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ece04a38dec53a0800000000000000
+      internalID: -6675199398020985198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastShot-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 3
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1efdc52ab778c60800000000000000
+      internalID: 7820355215225250253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

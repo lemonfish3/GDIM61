@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 3495920030667371319}
   - component: {fileID: 1507222962712058136}
   - component: {fileID: 3327843510136239793}
-  - component: {fileID: -6233523532589464360}
   - component: {fileID: 9151932920818972817}
   - component: {fileID: 1364839160727910383}
   m_Layer: 0
@@ -111,11 +110,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 516831645
+  m_SortingLayer: 5
   m_SortingOrder: 1
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0, g: 0.99058723, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 074a7ba638aa847f4a9b055bb4ab09ae, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -164,6 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 604fbfd0ee59e5646830f1abc46af8d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shieldActive: 0
   maxHealth: 100
   currentHealth: 0
   healthText: {fileID: 0}
@@ -171,6 +171,7 @@ MonoBehaviour:
   damagePerSecond: 10
   damageRadius: 1
   gameManager: {fileID: 0}
+  healthBar: {fileID: 0}
 --- !u!114 &3327843510136239793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,22 +186,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   lastMoveDirection: {x: 1, y: 0}
---- !u!114 &-6233523532589464360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4745456281356608222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d61cb2e1fb5e414585f855ec7dca440, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 3126371534921854924, guid: 651dba6b5d5a4b0408969ecc57f88ba9, type: 3}
-  firePoint: {fileID: 5032780285646101332}
-  shootCooldown: 0.5
-  fireKey: 113
 --- !u!61 &9151932920818972817
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -239,7 +224,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
