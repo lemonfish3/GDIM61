@@ -11,15 +11,14 @@ public class EnemySpawn : MonoBehaviour
 
     private List<GameObject> activeEnemies = new List<GameObject>();
     private float timer = 0f;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+
+    private bool playerInside = false;
+
 
     // Update is called once per frame
     void Update()
     {
+        if (!playerInside) return;
         timer += Time.deltaTime;
         activeEnemies.RemoveAll(enemy =>  enemy == null); // destroy null entries
 
@@ -27,13 +26,56 @@ public class EnemySpawn : MonoBehaviour
         {
             SpawnEnemy();
             timer = 0f;
-            Debug.Log("new enemy");
         }
     }
 
     void SpawnEnemy()
     {
-        GameObject newEnemy = Instantiate(enemyPrefab);
+        GameObject newEnemy = Instantiate(enemyPrefab, GetRandomSpawnPosition(), Quaternion.identity);
         activeEnemies.Add(newEnemy);
+        Debug.Log("new enemy");
     }
+
+    private Vector3 GetRandomSpawnPosition()
+    {
+        Vector2 randomOffset = Random.insideUnitCircle * 3f;
+        Debug.Log("Get enemy position");
+        return CharacrerSwitch.ActivePlayer.transform.position + (Vector3)randomOffset;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInside = true;
+            Debug.Log("Player entered spawn zone");
+        }
+    }
+
+   /* private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("Player is still inside trigger zone");
+        }
+    }*/
+
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInside = false;
+            Debug.Log("player left spawn zone");
+            activeEnemies.RemoveAll(enemy => enemy == null);
+        }
+    }
+
+/*    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        if (TryGetComponent(out Collider2D col))
+            Gizmos.DrawWireCube(col.bounds.center, col.bounds.size);
+    }*/
+
 }

@@ -63,6 +63,14 @@ public class CharacrerSwitch : MonoBehaviour
         }
 
         ActivePlayer = currentCharacter.transform;
+        
+
+        var health = currentCharacter.GetComponent<PlayerHealth>();
+        if (health != null)
+        {
+            health.ForceUpdateUI();
+        }
+
         Debug.Log($"Switched to character {index + 1}: {currentCharacter.name}");
     }
 }
