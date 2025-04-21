@@ -117,7 +117,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -169,10 +169,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 401
-        width: 618
-        height: 14
+        x: 0
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 387
-        width: 18
-        height: 14
+        x: 32
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_2
       rect:
         serializedVersion: 2
-        x: 80
-        y: 387
-        width: 13
-        height: 14
+        x: 64
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_3
       rect:
         serializedVersion: 2
-        x: 31
-        y: 351
-        width: 66
-        height: 34
+        x: 96
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_4
       rect:
         serializedVersion: 2
-        x: 67
-        y: 385
-        width: 14
-        height: 15
+        x: 128
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +279,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_5
       rect:
         serializedVersion: 2
-        x: 127
-        y: 319
-        width: 482
-        height: 66
+        x: 160
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,10 +301,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_6
       rect:
         serializedVersion: 2
-        x: 8
-        y: 302
-        width: 615
-        height: 16
+        x: 192
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_7
       rect:
         serializedVersion: 2
-        x: 38
-        y: 291
-        width: 18
-        height: 14
+        x: 224
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,10 +345,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_8
       rect:
         serializedVersion: 2
-        x: 67
-        y: 289
-        width: 14
-        height: 15
+        x: 256
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,10 +367,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_9
       rect:
         serializedVersion: 2
-        x: 80
-        y: 291
-        width: 13
-        height: 14
+        x: 288
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,10 +389,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_10
       rect:
         serializedVersion: 2
-        x: 8
-        y: 216
-        width: 616
-        height: 73
+        x: 320
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -411,10 +411,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_11
       rect:
         serializedVersion: 2
-        x: 31
-        y: 255
-        width: 66
-        height: 34
+        x: 352
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,10 +433,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_12
       rect:
         serializedVersion: 2
-        x: 167
-        y: 210
-        width: 18
-        height: 14
+        x: 384
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,10 +455,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_13
       rect:
         serializedVersion: 2
-        x: 8
-        y: 172
-        width: 20
-        height: 16
+        x: 416
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,10 +477,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_14
       rect:
         serializedVersion: 2
-        x: 31
-        y: 127
-        width: 34
-        height: 66
+        x: 448
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,10 +499,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_15
       rect:
         serializedVersion: 2
-        x: 127
-        y: 127
-        width: 482
-        height: 66
+        x: 480
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,10 +521,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_16
       rect:
         serializedVersion: 2
-        x: 9
-        y: 139
-        width: 19
-        height: 14
+        x: 512
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,10 +543,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_17
       rect:
         serializedVersion: 2
-        x: 6
-        y: 112
-        width: 170
-        height: 15
+        x: 544
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,10 +565,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_18
       rect:
         serializedVersion: 2
-        x: 175
-        y: 114
-        width: 445
-        height: 14
+        x: 576
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -587,10 +587,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_19
       rect:
         serializedVersion: 2
-        x: 8
-        y: 76
-        width: 20
-        height: 16
+        x: 608
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,10 +609,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_20
       rect:
         serializedVersion: 2
-        x: 31
-        y: 31
-        width: 34
-        height: 66
+        x: 32
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -631,10 +631,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_21
       rect:
         serializedVersion: 2
-        x: 127
-        y: 31
-        width: 482
-        height: 66
+        x: 64
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -653,10 +653,10 @@ TextureImporter:
       name: Beach-transition tiles between coast platform and beach-spritesheet_22
       rect:
         serializedVersion: 2
-        x: 9
-        y: 43
-        width: 19
-        height: 14
+        x: 128
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -671,11 +671,4169 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c207fb4d409a4367a79c46fee80dc93
+      internalID: -893249515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27592f9077fee40d6ad3149059cc7333
+      internalID: 464026278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e993105c206fc4073bebf596f4029368
+      internalID: 2124496148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9a840b4cbb240dcbec11946fb6740e
+      internalID: 769721350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b908a3187734e7fa8bb296e825cec0
+      internalID: -1262318041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d83183417bc486d9cf82ba8b8e0f34
+      internalID: 1748834960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f63a23b68ac4e23b24dfa6a5b980d6
+      internalID: -1228261555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9597c3d46390f44aea7cd371547fa01c
+      internalID: -138860640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba33a46c8aef404fb91ae97339874a5
+      internalID: -1370538366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba89607f88b23467cb306dc7e7a25951
+      internalID: 434209637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6eb12a8d7c5411691584ec74d477b6
+      internalID: -1022751239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8348ee07ba64946b552a5a0b88fba9
+      internalID: -837503044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e0bb2d2e11548b3adeff6d36dde2cb
+      internalID: 1990277435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f19ed4adfbcc476f93636811f49f28a
+      internalID: -603472100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7881c62595b4671b5c44c97dbc8ab4
+      internalID: -2083824079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d20d482c88b94338b6cff224378fe32
+      internalID: -1102526161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4c51004839b44af9b4cf9c5be01133
+      internalID: -17262403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ab087a44ff94dc4b8caf8c641f6e69
+      internalID: -420278400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5769eae1065e470ab4d490a391ac87c
+      internalID: 35448388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8feab1f137447f3bbee8d52912f924
+      internalID: -12875487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18083922837a6461d8e42467080fe14e
+      internalID: 953537036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2a34b42b07643a0a0548d4ebc2c48c
+      internalID: -553513883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178f678155d804ba4a8e383ead2b7909
+      internalID: 916639270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be6b733a0f8e45df9805a60eebcb1f8
+      internalID: -339705532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd655998888fe487686f6d78832f799a
+      internalID: -1513572718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a909c9c3e6c42dba0422c9c53c2bb7
+      internalID: 1314507238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d95df16cbcd4b59b4f9d2f9de5d863
+      internalID: 1084316753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f1c07d1b1cc4b1eba1d665b7b2c26f
+      internalID: -1668523023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e13cdd0509b6448eab3b67c95c16d7d
+      internalID: -1670076844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3022d4dc1eb6848ed9186b9a1a4686b7
+      internalID: 1666076118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243b52b739690482a9ce6bc62093ba56
+      internalID: 618378209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e40f19b7ece845b4904090029c3ade9
+      internalID: -830063220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ea1d32a915d46b7bd0277a2e98c823
+      internalID: 1747792080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a969a939fb74f7487083d463c1f99e
+      internalID: 455736285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e8162ba45724402912bb936224b445
+      internalID: 834924554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81631a36f60554ca58e21b059c5ddfe0
+      internalID: -1405086625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a703f08276645878af20091ea36f8c
+      internalID: -534680910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49b694b6e92a418291c34f78ca48b55
+      internalID: 153232607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104449f4a201e413c8ed5f175d16f759
+      internalID: -1377767330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9202503fe1d544ae1ac8ed73e61c1728
+      internalID: -1223204552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f72f2a393ec45088d5bc0fca258de5
+      internalID: 1493648702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b030eef92707e44d19da631e6554c54e
+      internalID: 605660926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8c8a9da10734beda62ecb87e24b3d2
+      internalID: -1864185650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ef9722b7cb449189ff609aa4085a35
+      internalID: 1826185817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79649cc62be54c68b2d83d4170c096b
+      internalID: 464914665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ed697fd3b1647aaba00f296c6f6f86
+      internalID: 1399629982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1696ec2e2cb964e95aa1ac5aaa3beec0
+      internalID: -524671068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a0bf8be202d4001a51fcdf431bb2b5
+      internalID: 2017876836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef26bf8bf78ee403d865273f976a700b
+      internalID: -778920367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2116bd2b787534a3980d06870ee4d3b7
+      internalID: 14601312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c04d4b321bcc4aad9ee2b68cf3c9c49
+      internalID: 1831465399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f6d6cceae17411f885260ba063dcd4
+      internalID: -1699976162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8e58b16b8124202855aab531c403a2
+      internalID: 1869780696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ea4e5516eda4b8aba42712e783866a
+      internalID: -1376665480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d90c045bca3d4efdadd3ccee4680894
+      internalID: -461827303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d11b3cf638c4fd0b275d17ef0b1abc
+      internalID: 1321655179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec8029086ee04d599a81ec76954a98f
+      internalID: 436341615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44c76460eda9410eab1971613676a55
+      internalID: 690032302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783cef536d75143099dc58f31a0bafba
+      internalID: 474024657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47370d8aee6624c5baea9af8a9f43d85
+      internalID: 1969352463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60b2e4b80fb64c7a88c902abb7cc4c5
+      internalID: -447014745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4656a3c5311da4596aa1e0344d835727
+      internalID: -1630663155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02815d4a349444cc93833b98785cbf0
+      internalID: -1961917903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78446af4394048b7abdc55e1673d2f3
+      internalID: -1778555960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489f7003453bb4afb8fd453944cd470d
+      internalID: 464917035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce842a79acee47f9af3d2122df9116e
+      internalID: -1563419255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d5d96f11987492786aad34a98aa489
+      internalID: -1262949666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724a845a5a9a44ac697bf7a13fd46b92
+      internalID: 746228067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2268d745827b14a90b7460f20ee8bcb2
+      internalID: 223254770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaedf86967fc4c1f8292445c2274ad9
+      internalID: -2032397272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682c68a2030d64453b49819e826310c3
+      internalID: 1318568953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c45fef435bb44941a5d2096bd7e0575
+      internalID: 1876050132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83a8bc5b9b19401caff56971233b6e7
+      internalID: -620433804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655ebc0104454479c9504bf601ddf9e9
+      internalID: -628040638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60299b9f228324f0981fcffb2237f7d5
+      internalID: -163699245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5062e21ba9e746d69aeea9aa112cdee
+      internalID: 403131564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af12d8763090a4d9a8051c64372bdfcf
+      internalID: -1787901832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82554c60c95ee4997bc91a62ff830ed6
+      internalID: 2090161896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bbd2df2ab12473b9535e3d1d3d00ff
+      internalID: 82893211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92628dc875ca6483cb3580ca9bdaeda2
+      internalID: -1309561449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6851ee65db99d4162b8f59d8695690c8
+      internalID: 1954423735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a120207a87d4c44f7ab93256ab639f3c
+      internalID: 2141378555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1e9e24a462942c08946c874eb27026
+      internalID: 1973347858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a618d559cadf1448498bcdda6a8b630e
+      internalID: -1831100964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3112e59f0b2ed4cfeae6751a1e4070e7
+      internalID: -38995760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e6fc7aad0614878969ffd3498379d3
+      internalID: -2106904491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45853368a7eb4436980db08767ff654
+      internalID: -1907086077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114ed0f92bff94d72a7b5f237033eb83
+      internalID: -1087739254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a513aa40424d4f9fb9084124cd6a22b
+      internalID: 1374298095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c07d157c85184d88b51d59f84650b4e
+      internalID: -1115129871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929a9cee586684d71a9cfaa8881ff2d4
+      internalID: 1729785781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65046ed1726104e9a9725ac458cd128b
+      internalID: -2009698762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6723091152b354f6cafdb9d8d9bdc674
+      internalID: -1201740918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e03d5e10296e410f81243e66d0109fa
+      internalID: -1865402577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5babda41a1de94ce7be04266b2965a75
+      internalID: -754695021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489ca7f8edfbb4a3398adb63ef3b6ca4
+      internalID: 902814787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9661f2e8ae8404bba73df3b7dc831b
+      internalID: 2022821158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91295fc09e5394e65b3ef67e04cd4ee8
+      internalID: 648560181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5a0165b80a1454a8b6a86c9be81543
+      internalID: -522428354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ed12117d3124944af93515eb45e493
+      internalID: -1584012601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa089ce70a7241a8a09873398462735
+      internalID: -773287675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb84d06d6204d4f4685e2ce39965ec8b
+      internalID: -2120289730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f48842512c540978ecf1f0cdd06196
+      internalID: -703778904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971d5deaed75746089282c8c0c5d2bc8
+      internalID: -344705349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfee2179dc8f417991f6af541d9ee7f
+      internalID: -1310948661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e209bf9749e643c88fe01f6e8368bcb
+      internalID: -2009809453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1561a9a3ba6fb407d929452b4dd8ac30
+      internalID: 367862163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf3d7d888e1947d8a7bf955d0665ecf
+      internalID: 295335564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a877ac525c6406ca96b5abdf9d26aa
+      internalID: -1991610391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c2b73ca790047c79b5ff7f5fa6d24d
+      internalID: 301994552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4bd0f3db71444448a206761178fbf2
+      internalID: 190310896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12e27388dc8a439ea6dcd4fc8cab344
+      internalID: 106418401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb921a6295f0422f8ad414e6d648c9d
+      internalID: -380058113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a75f59f4c024114904cf6bdd8fe66e
+      internalID: -1446036900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763c2cb8741e74908a80ac0ba1a66364
+      internalID: 123025934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c815c0d35c504ef596c1893c7207d73
+      internalID: -2012742271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11265c97e256e4ba88ae51cdca97d8e6
+      internalID: 1312908159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9b8ec8442c74755a7252a929fdb2b4
+      internalID: 1636265361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858f6436197e34d1a9a6e7b928c6d43c
+      internalID: 1063959425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58114637bb4d54ce588ce46df490454a
+      internalID: -170626556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ddc5d39498948c190f1da1a0f2c3a2
+      internalID: 603930724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf99dacd1e1c142178e106946b7d1704
+      internalID: -853005760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_145
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bae15efbe7a47fd915744158042fd5
+      internalID: -1271627063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_146
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5384ed83b79f4258919c8df304ab534
+      internalID: -1155361381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_147
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a788ea13f1a4c24adb92f2d54b6c32
+      internalID: 130110934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_148
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882cd67ed6c62482993fedcc28bbe8c1
+      internalID: 1910348922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_149
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc72225853cf247a98a7570ccd195495
+      internalID: 199821117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_150
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62dfed18b1754832817a15494e3d738
+      internalID: -1533382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_151
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fe2e9d54ec944a494c2e71c0cb4bf3
+      internalID: 497693269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_152
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affb8463effa74dbc8b3125dfb465d79
+      internalID: 1950576047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_153
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e187944dee99f486a84bdba54e076119
+      internalID: -321676226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_154
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bf91b464ce643af9286542ebfb9d2e
+      internalID: -1347887186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_155
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cfdc32aad6a439f981369e0951e5ff
+      internalID: -1594135640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_156
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617be436b6ba94e20be8639dbfef6000
+      internalID: 1383131830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_157
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75389cfb4c4424fdea28189c988ec8d3
+      internalID: -1316592928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d814c538b6040879699c9b8d24edc5
+      internalID: 410391414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_159
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987daec64c9e549fdacbfa0171224588
+      internalID: 1261780103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_160
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef999c328bc94482493f9df60fc3166d
+      internalID: 1771445210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_161
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd238647f3e884e1db8b2b85a9d6b089
+      internalID: -1063324701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_162
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b39d63d34a94113828b423b4f47f93
+      internalID: 336943723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_163
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd82598683bc74461ac83824cc284a06
+      internalID: 1784959838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_164
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29ade40e2c85449499f512563a22174
+      internalID: -1058405803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_165
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af69246c54a84223995aad244c64dcf
+      internalID: 906421627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_166
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2ff3c9f1a79498b866142edcc82716
+      internalID: 1127558486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_167
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091774b417d114246aeaf2fc880eb356
+      internalID: 2010942727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_168
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a70c5c97ab174c14985020768a45f79
+      internalID: 863872133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_169
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ac109b4c67043be851a9a5e0184562
+      internalID: -408440022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_170
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c331e403e49b845a6aec92e6e18001c6
+      internalID: 1425554386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_171
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613dad7cfcfe24cc2bfe146b4183f7e7
+      internalID: 852893815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_172
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2171ad245c28a48f1a957cd8d29ce867
+      internalID: -749973897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_173
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f93c782cb874f4bb13e561325d60a6
+      internalID: 1952989196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_174
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c47b8d4ee35f42719eb3949634c9dff
+      internalID: 139163275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_175
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8335a75a712e44dd29b74e6a20fa012c
+      internalID: -19276577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_176
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc177afe39d24d1fb98ae18a4ce4a59
+      internalID: -2029063879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_177
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7d22955631c499e85772bdf8a187c3
+      internalID: -1910673929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_178
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff60d525ee3b4d9c8cf503e400373aa
+      internalID: 2075828482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_179
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f15828e79c340cf9f8379961bd20c7
+      internalID: -624012591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_180
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aec8da734f5841809b8b626c930fd49
+      internalID: 231168490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_181
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ade9d2798f424e5f87dc85419d9ead5
+      internalID: -1284635250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_182
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edea1ffd60d884888836a3887f6b6fc7
+      internalID: 1056431583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_183
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33194b06354f48a18139bfbafbbb146
+      internalID: -208646272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_184
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90772793767034d2e981ffad7443c74d
+      internalID: -1948928221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_185
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491c01ad036a1442ea06247c0090f069
+      internalID: 529538050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_186
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baa8a6a459254549967569a89588de6
+      internalID: 143669451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_187
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c684b586ff147f998ddf4d5b9b3d43
+      internalID: -9232448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_188
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f457b1a73bd24462596e98b0dfd5378a
+      internalID: 1905874140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_189
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e3d564e999a4936990ee5f8b059505
+      internalID: -1583819131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_190
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8c4ade3f6f84022bf511c6e6bee4dd
+      internalID: 408414320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_191
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46905dccf920f4c3ea25621b7f8b31d7
+      internalID: 71111386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_192
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ae658706b144e478b33fe493f4e6d3
+      internalID: 24714072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_193
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88112177cec994d8d99014778d73a351
+      internalID: -1578320435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_194
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229ae7f1f1fac4cfb89ecacedc4559d3
+      internalID: -2115351377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd99702a14eb448e8a5a79c1767a462
+      internalID: -2129829307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_196
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d754caefa95b42dc98a03e670d08df9
+      internalID: 1803626154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_197
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bda7b8a500454f8daeb015f7ea8b3ac
+      internalID: -970963609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_198
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4649ec80e04c44be79069ce056fd4428
+      internalID: -1944390684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_199
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a186962e1893f440081cde68ef9ceffe
+      internalID: 1441201461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_200
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be95d721e29204c8783f8a7373067b5a
+      internalID: -1206241803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_201
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9836d2aab11444e859e2f10efd202e4b
+      internalID: -1842107272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_202
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c6fa4a052fd4b52b91182c77ee9ac9
+      internalID: -1332404844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_203
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd19168cecd748ecb83d50597b7c307
+      internalID: 1046226198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_204
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be74b77371a09438fb542b6be296bbb1
+      internalID: -457926187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_205
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b94a6a8cc444cdfaad9c107e85b14e
+      internalID: -552898442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_206
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06501c8df6664113be51a3342f90bb6
+      internalID: 1080170677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_207
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f7431cf46fb48ec9e63142b53dea02
+      internalID: -528565842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_208
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3a6b0e2c4f647a19ec86a1ac351a06
+      internalID: 1079989370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_209
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903fffd468be24601b11b64c47816965
+      internalID: 1659625690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_210
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efabbfcd57bd455ca8f65be4e45f5dd
+      internalID: -1659473009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach-transition tiles between coast platform and beach-spritesheet_211
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fec2b0e64de440482e84fc03aedda8
+      internalID: -876693137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1eb72b40bfce740329ec5a6ff6100268
     internalID: 0
     vertices: []
     indices: 
@@ -688,26 +4846,215 @@ TextureImporter:
       Beach-transition tiles between coast platform and beach-spritesheet_0: -3633775417798903595
       Beach-transition tiles between coast platform and beach-spritesheet_1: -3022079408901385082
       Beach-transition tiles between coast platform and beach-spritesheet_10: 1693069269561393601
+      Beach-transition tiles between coast platform and beach-spritesheet_100: 2090161896
+      Beach-transition tiles between coast platform and beach-spritesheet_101: 82893211
+      Beach-transition tiles between coast platform and beach-spritesheet_102: -1309561449
+      Beach-transition tiles between coast platform and beach-spritesheet_103: 1954423735
+      Beach-transition tiles between coast platform and beach-spritesheet_104: 2141378555
+      Beach-transition tiles between coast platform and beach-spritesheet_105: 1973347858
+      Beach-transition tiles between coast platform and beach-spritesheet_106: -1831100964
+      Beach-transition tiles between coast platform and beach-spritesheet_107: -38995760
+      Beach-transition tiles between coast platform and beach-spritesheet_108: -2106904491
+      Beach-transition tiles between coast platform and beach-spritesheet_109: -1907086077
       Beach-transition tiles between coast platform and beach-spritesheet_11: -4692216549122020750
+      Beach-transition tiles between coast platform and beach-spritesheet_110: -1087739254
+      Beach-transition tiles between coast platform and beach-spritesheet_111: 1374298095
+      Beach-transition tiles between coast platform and beach-spritesheet_112: -1115129871
+      Beach-transition tiles between coast platform and beach-spritesheet_113: 1729785781
+      Beach-transition tiles between coast platform and beach-spritesheet_114: -2009698762
+      Beach-transition tiles between coast platform and beach-spritesheet_115: -1201740918
+      Beach-transition tiles between coast platform and beach-spritesheet_116: -1865402577
+      Beach-transition tiles between coast platform and beach-spritesheet_117: -754695021
+      Beach-transition tiles between coast platform and beach-spritesheet_118: 902814787
+      Beach-transition tiles between coast platform and beach-spritesheet_119: 2022821158
       Beach-transition tiles between coast platform and beach-spritesheet_12: -6899947686345244484
+      Beach-transition tiles between coast platform and beach-spritesheet_120: 648560181
+      Beach-transition tiles between coast platform and beach-spritesheet_121: -522428354
+      Beach-transition tiles between coast platform and beach-spritesheet_122: -1584012601
+      Beach-transition tiles between coast platform and beach-spritesheet_123: -773287675
+      Beach-transition tiles between coast platform and beach-spritesheet_124: -2120289730
+      Beach-transition tiles between coast platform and beach-spritesheet_125: -703778904
+      Beach-transition tiles between coast platform and beach-spritesheet_126: -344705349
+      Beach-transition tiles between coast platform and beach-spritesheet_127: -1310948661
+      Beach-transition tiles between coast platform and beach-spritesheet_128: -2009809453
+      Beach-transition tiles between coast platform and beach-spritesheet_129: 367862163
       Beach-transition tiles between coast platform and beach-spritesheet_13: 8833040058593587623
+      Beach-transition tiles between coast platform and beach-spritesheet_130: 295335564
+      Beach-transition tiles between coast platform and beach-spritesheet_131: -1991610391
+      Beach-transition tiles between coast platform and beach-spritesheet_132: 301994552
+      Beach-transition tiles between coast platform and beach-spritesheet_133: 190310896
+      Beach-transition tiles between coast platform and beach-spritesheet_134: 106418401
+      Beach-transition tiles between coast platform and beach-spritesheet_135: -380058113
+      Beach-transition tiles between coast platform and beach-spritesheet_136: -1446036900
+      Beach-transition tiles between coast platform and beach-spritesheet_137: 123025934
+      Beach-transition tiles between coast platform and beach-spritesheet_138: -2012742271
+      Beach-transition tiles between coast platform and beach-spritesheet_139: 1312908159
       Beach-transition tiles between coast platform and beach-spritesheet_14: -5027526134305903487
+      Beach-transition tiles between coast platform and beach-spritesheet_140: 1636265361
+      Beach-transition tiles between coast platform and beach-spritesheet_141: 1063959425
+      Beach-transition tiles between coast platform and beach-spritesheet_142: -170626556
+      Beach-transition tiles between coast platform and beach-spritesheet_143: 603930724
+      Beach-transition tiles between coast platform and beach-spritesheet_144: -853005760
+      Beach-transition tiles between coast platform and beach-spritesheet_145: -1271627063
+      Beach-transition tiles between coast platform and beach-spritesheet_146: -1155361381
+      Beach-transition tiles between coast platform and beach-spritesheet_147: 130110934
+      Beach-transition tiles between coast platform and beach-spritesheet_148: 1910348922
+      Beach-transition tiles between coast platform and beach-spritesheet_149: 199821117
       Beach-transition tiles between coast platform and beach-spritesheet_15: -3090151019147093735
+      Beach-transition tiles between coast platform and beach-spritesheet_150: -1533382
+      Beach-transition tiles between coast platform and beach-spritesheet_151: 497693269
+      Beach-transition tiles between coast platform and beach-spritesheet_152: 1950576047
+      Beach-transition tiles between coast platform and beach-spritesheet_153: -321676226
+      Beach-transition tiles between coast platform and beach-spritesheet_154: -1347887186
+      Beach-transition tiles between coast platform and beach-spritesheet_155: -1594135640
+      Beach-transition tiles between coast platform and beach-spritesheet_156: 1383131830
+      Beach-transition tiles between coast platform and beach-spritesheet_157: -1316592928
+      Beach-transition tiles between coast platform and beach-spritesheet_158: 410391414
+      Beach-transition tiles between coast platform and beach-spritesheet_159: 1261780103
       Beach-transition tiles between coast platform and beach-spritesheet_16: 8788943337058267902
+      Beach-transition tiles between coast platform and beach-spritesheet_160: 1771445210
+      Beach-transition tiles between coast platform and beach-spritesheet_161: -1063324701
+      Beach-transition tiles between coast platform and beach-spritesheet_162: 336943723
+      Beach-transition tiles between coast platform and beach-spritesheet_163: 1784959838
+      Beach-transition tiles between coast platform and beach-spritesheet_164: -1058405803
+      Beach-transition tiles between coast platform and beach-spritesheet_165: 906421627
+      Beach-transition tiles between coast platform and beach-spritesheet_166: 1127558486
+      Beach-transition tiles between coast platform and beach-spritesheet_167: 2010942727
+      Beach-transition tiles between coast platform and beach-spritesheet_168: 863872133
+      Beach-transition tiles between coast platform and beach-spritesheet_169: -408440022
       Beach-transition tiles between coast platform and beach-spritesheet_17: -1491164104845385419
+      Beach-transition tiles between coast platform and beach-spritesheet_170: 1425554386
+      Beach-transition tiles between coast platform and beach-spritesheet_171: 852893815
+      Beach-transition tiles between coast platform and beach-spritesheet_172: -749973897
+      Beach-transition tiles between coast platform and beach-spritesheet_173: 1952989196
+      Beach-transition tiles between coast platform and beach-spritesheet_174: 139163275
+      Beach-transition tiles between coast platform and beach-spritesheet_175: -19276577
+      Beach-transition tiles between coast platform and beach-spritesheet_176: -2029063879
+      Beach-transition tiles between coast platform and beach-spritesheet_177: -1910673929
+      Beach-transition tiles between coast platform and beach-spritesheet_178: 2075828482
+      Beach-transition tiles between coast platform and beach-spritesheet_179: -624012591
       Beach-transition tiles between coast platform and beach-spritesheet_18: -5109490930342577900
+      Beach-transition tiles between coast platform and beach-spritesheet_180: 231168490
+      Beach-transition tiles between coast platform and beach-spritesheet_181: -1284635250
+      Beach-transition tiles between coast platform and beach-spritesheet_182: 1056431583
+      Beach-transition tiles between coast platform and beach-spritesheet_183: -208646272
+      Beach-transition tiles between coast platform and beach-spritesheet_184: -1948928221
+      Beach-transition tiles between coast platform and beach-spritesheet_185: 529538050
+      Beach-transition tiles between coast platform and beach-spritesheet_186: 143669451
+      Beach-transition tiles between coast platform and beach-spritesheet_187: -9232448
+      Beach-transition tiles between coast platform and beach-spritesheet_188: 1905874140
+      Beach-transition tiles between coast platform and beach-spritesheet_189: -1583819131
       Beach-transition tiles between coast platform and beach-spritesheet_19: -1000513942257115835
+      Beach-transition tiles between coast platform and beach-spritesheet_190: 408414320
+      Beach-transition tiles between coast platform and beach-spritesheet_191: 71111386
+      Beach-transition tiles between coast platform and beach-spritesheet_192: 24714072
+      Beach-transition tiles between coast platform and beach-spritesheet_193: -1578320435
+      Beach-transition tiles between coast platform and beach-spritesheet_194: -2115351377
+      Beach-transition tiles between coast platform and beach-spritesheet_195: -2129829307
+      Beach-transition tiles between coast platform and beach-spritesheet_196: 1803626154
+      Beach-transition tiles between coast platform and beach-spritesheet_197: -970963609
+      Beach-transition tiles between coast platform and beach-spritesheet_198: -1944390684
+      Beach-transition tiles between coast platform and beach-spritesheet_199: 1441201461
       Beach-transition tiles between coast platform and beach-spritesheet_2: 391898580442867019
       Beach-transition tiles between coast platform and beach-spritesheet_20: 402857944417289038
+      Beach-transition tiles between coast platform and beach-spritesheet_200: -1206241803
+      Beach-transition tiles between coast platform and beach-spritesheet_201: -1842107272
+      Beach-transition tiles between coast platform and beach-spritesheet_202: -1332404844
+      Beach-transition tiles between coast platform and beach-spritesheet_203: 1046226198
+      Beach-transition tiles between coast platform and beach-spritesheet_204: -457926187
+      Beach-transition tiles between coast platform and beach-spritesheet_205: -552898442
+      Beach-transition tiles between coast platform and beach-spritesheet_206: 1080170677
+      Beach-transition tiles between coast platform and beach-spritesheet_207: -528565842
+      Beach-transition tiles between coast platform and beach-spritesheet_208: 1079989370
+      Beach-transition tiles between coast platform and beach-spritesheet_209: 1659625690
       Beach-transition tiles between coast platform and beach-spritesheet_21: -453967273380279773
+      Beach-transition tiles between coast platform and beach-spritesheet_210: -1659473009
+      Beach-transition tiles between coast platform and beach-spritesheet_211: -876693137
       Beach-transition tiles between coast platform and beach-spritesheet_22: -2307051445016537883
+      Beach-transition tiles between coast platform and beach-spritesheet_23: -893249515
+      Beach-transition tiles between coast platform and beach-spritesheet_24: 464026278
+      Beach-transition tiles between coast platform and beach-spritesheet_25: 2124496148
+      Beach-transition tiles between coast platform and beach-spritesheet_26: 769721350
+      Beach-transition tiles between coast platform and beach-spritesheet_27: -1262318041
+      Beach-transition tiles between coast platform and beach-spritesheet_28: 1748834960
+      Beach-transition tiles between coast platform and beach-spritesheet_29: -1228261555
       Beach-transition tiles between coast platform and beach-spritesheet_3: 1094340263353426021
+      Beach-transition tiles between coast platform and beach-spritesheet_30: -138860640
+      Beach-transition tiles between coast platform and beach-spritesheet_31: -1370538366
+      Beach-transition tiles between coast platform and beach-spritesheet_32: 434209637
+      Beach-transition tiles between coast platform and beach-spritesheet_33: -1022751239
+      Beach-transition tiles between coast platform and beach-spritesheet_34: -837503044
+      Beach-transition tiles between coast platform and beach-spritesheet_35: 1990277435
+      Beach-transition tiles between coast platform and beach-spritesheet_36: -603472100
+      Beach-transition tiles between coast platform and beach-spritesheet_37: -2083824079
+      Beach-transition tiles between coast platform and beach-spritesheet_38: -1102526161
+      Beach-transition tiles between coast platform and beach-spritesheet_39: -17262403
       Beach-transition tiles between coast platform and beach-spritesheet_4: -5337097490459705644
+      Beach-transition tiles between coast platform and beach-spritesheet_40: -420278400
+      Beach-transition tiles between coast platform and beach-spritesheet_41: 35448388
+      Beach-transition tiles between coast platform and beach-spritesheet_42: -12875487
+      Beach-transition tiles between coast platform and beach-spritesheet_43: 953537036
+      Beach-transition tiles between coast platform and beach-spritesheet_44: -553513883
+      Beach-transition tiles between coast platform and beach-spritesheet_45: 916639270
+      Beach-transition tiles between coast platform and beach-spritesheet_46: -339705532
+      Beach-transition tiles between coast platform and beach-spritesheet_47: -1513572718
+      Beach-transition tiles between coast platform and beach-spritesheet_48: 1314507238
+      Beach-transition tiles between coast platform and beach-spritesheet_49: 1084316753
       Beach-transition tiles between coast platform and beach-spritesheet_5: -7241525039366126653
+      Beach-transition tiles between coast platform and beach-spritesheet_50: -1668523023
+      Beach-transition tiles between coast platform and beach-spritesheet_51: -1670076844
+      Beach-transition tiles between coast platform and beach-spritesheet_52: 1666076118
+      Beach-transition tiles between coast platform and beach-spritesheet_53: 618378209
+      Beach-transition tiles between coast platform and beach-spritesheet_54: -830063220
+      Beach-transition tiles between coast platform and beach-spritesheet_55: 1747792080
+      Beach-transition tiles between coast platform and beach-spritesheet_56: 455736285
+      Beach-transition tiles between coast platform and beach-spritesheet_57: 834924554
+      Beach-transition tiles between coast platform and beach-spritesheet_58: -1405086625
+      Beach-transition tiles between coast platform and beach-spritesheet_59: -534680910
       Beach-transition tiles between coast platform and beach-spritesheet_6: 1738027670747620373
+      Beach-transition tiles between coast platform and beach-spritesheet_60: 153232607
+      Beach-transition tiles between coast platform and beach-spritesheet_61: -1377767330
+      Beach-transition tiles between coast platform and beach-spritesheet_62: -1223204552
+      Beach-transition tiles between coast platform and beach-spritesheet_63: 1493648702
+      Beach-transition tiles between coast platform and beach-spritesheet_64: 605660926
+      Beach-transition tiles between coast platform and beach-spritesheet_65: -1864185650
+      Beach-transition tiles between coast platform and beach-spritesheet_66: 1826185817
+      Beach-transition tiles between coast platform and beach-spritesheet_67: 464914665
+      Beach-transition tiles between coast platform and beach-spritesheet_68: 1399629982
+      Beach-transition tiles between coast platform and beach-spritesheet_69: -524671068
       Beach-transition tiles between coast platform and beach-spritesheet_7: 191444053682134075
+      Beach-transition tiles between coast platform and beach-spritesheet_70: 2017876836
+      Beach-transition tiles between coast platform and beach-spritesheet_71: -778920367
+      Beach-transition tiles between coast platform and beach-spritesheet_72: 14601312
+      Beach-transition tiles between coast platform and beach-spritesheet_73: 1831465399
+      Beach-transition tiles between coast platform and beach-spritesheet_74: -1699976162
+      Beach-transition tiles between coast platform and beach-spritesheet_75: 1869780696
+      Beach-transition tiles between coast platform and beach-spritesheet_76: -1376665480
+      Beach-transition tiles between coast platform and beach-spritesheet_77: -461827303
+      Beach-transition tiles between coast platform and beach-spritesheet_78: 1321655179
+      Beach-transition tiles between coast platform and beach-spritesheet_79: 436341615
       Beach-transition tiles between coast platform and beach-spritesheet_8: -2721787526851194367
+      Beach-transition tiles between coast platform and beach-spritesheet_80: 690032302
+      Beach-transition tiles between coast platform and beach-spritesheet_81: 474024657
+      Beach-transition tiles between coast platform and beach-spritesheet_82: 1969352463
+      Beach-transition tiles between coast platform and beach-spritesheet_83: -447014745
+      Beach-transition tiles between coast platform and beach-spritesheet_84: -1630663155
+      Beach-transition tiles between coast platform and beach-spritesheet_85: -1961917903
+      Beach-transition tiles between coast platform and beach-spritesheet_86: -1778555960
+      Beach-transition tiles between coast platform and beach-spritesheet_87: 464917035
+      Beach-transition tiles between coast platform and beach-spritesheet_88: -1563419255
+      Beach-transition tiles between coast platform and beach-spritesheet_89: -1262949666
       Beach-transition tiles between coast platform and beach-spritesheet_9: 8014583140675047246
+      Beach-transition tiles between coast platform and beach-spritesheet_90: 746228067
+      Beach-transition tiles between coast platform and beach-spritesheet_91: 223254770
+      Beach-transition tiles between coast platform and beach-spritesheet_92: -2032397272
+      Beach-transition tiles between coast platform and beach-spritesheet_93: 1318568953
+      Beach-transition tiles between coast platform and beach-spritesheet_94: 1876050132
+      Beach-transition tiles between coast platform and beach-spritesheet_95: -620433804
+      Beach-transition tiles between coast platform and beach-spritesheet_96: -628040638
+      Beach-transition tiles between coast platform and beach-spritesheet_97: -163699245
+      Beach-transition tiles between coast platform and beach-spritesheet_98: 403131564
+      Beach-transition tiles between coast platform and beach-spritesheet_99: -1787901832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

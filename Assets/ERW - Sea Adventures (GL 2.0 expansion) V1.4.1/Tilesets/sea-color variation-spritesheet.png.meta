@@ -282,7 +282,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -335,9 +335,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 793
-        width: 33
-        height: 33
+        y: 794
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +356,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_1
       rect:
         serializedVersion: 2
-        x: 7
-        y: 670
-        width: 150
-        height: 154
+        x: 32
+        y: 794
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +378,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_2
       rect:
         serializedVersion: 2
-        x: 127
-        y: 793
-        width: 34
-        height: 33
+        x: 64
+        y: 794
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,10 +400,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_3
       rect:
         serializedVersion: 2
-        x: 3
-        y: 764
-        width: 6
-        height: 7
+        x: 96
+        y: 794
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +422,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_4
       rect:
         serializedVersion: 2
-        x: 2
-        y: 754
-        width: 6
-        height: 8
+        x: 128
+        y: 794
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,10 +444,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_5
       rect:
         serializedVersion: 2
-        x: 2
-        y: 740
-        width: 7
-        height: 7
+        x: 0
+        y: 762
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +466,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_6
       rect:
         serializedVersion: 2
-        x: 4
-        y: 724
-        width: 7
-        height: 8
+        x: 32
+        y: 762
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,10 +488,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 638
-        width: 31
-        height: 29
+        x: 64
+        y: 762
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,10 +510,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_8
       rect:
         serializedVersion: 2
-        x: 31
-        y: 638
+        x: 96
+        y: 762
         width: 32
-        height: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,10 +532,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_9
       rect:
         serializedVersion: 2
-        x: 63
-        y: 638
+        x: 128
+        y: 762
         width: 32
-        height: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,10 +554,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_10
       rect:
         serializedVersion: 2
-        x: 95
-        y: 638
+        x: 0
+        y: 730
         width: 32
-        height: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -576,10 +576,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_11
       rect:
         serializedVersion: 2
-        x: 127
-        y: 638
+        x: 32
+        y: 730
         width: 32
-        height: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -598,10 +598,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_12
       rect:
         serializedVersion: 2
-        x: 159
-        y: 638
+        x: 64
+        y: 730
         width: 32
-        height: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,10 +620,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_13
       rect:
         serializedVersion: 2
-        x: 191
-        y: 638
+        x: 96
+        y: 730
         width: 32
-        height: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -642,10 +642,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_14
       rect:
         serializedVersion: 2
-        x: 223
-        y: 638
+        x: 128
+        y: 730
         width: 32
-        height: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -665,9 +665,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 577
-        width: 257
-        height: 58
+        y: 698
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -686,10 +686,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 537
-        width: 29
-        height: 39
+        x: 32
+        y: 698
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -708,10 +708,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_17
       rect:
         serializedVersion: 2
-        x: 31
-        y: 537
-        width: 30
-        height: 39
+        x: 64
+        y: 698
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -730,10 +730,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_18
       rect:
         serializedVersion: 2
-        x: 63
-        y: 537
-        width: 30
-        height: 39
+        x: 96
+        y: 698
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -752,10 +752,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_19
       rect:
         serializedVersion: 2
-        x: 95
-        y: 537
-        width: 30
-        height: 39
+        x: 128
+        y: 698
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -774,10 +774,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_20
       rect:
         serializedVersion: 2
-        x: 127
-        y: 537
-        width: 30
-        height: 39
+        x: 32
+        y: 666
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -796,10 +796,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_21
       rect:
         serializedVersion: 2
-        x: 159
-        y: 537
-        width: 30
-        height: 39
+        x: 64
+        y: 666
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -818,10 +818,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_22
       rect:
         serializedVersion: 2
-        x: 191
-        y: 537
-        width: 30
-        height: 39
+        x: 96
+        y: 666
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -840,10 +840,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_23
       rect:
         serializedVersion: 2
-        x: 223
-        y: 537
-        width: 30
-        height: 39
+        x: 0
+        y: 634
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -862,10 +862,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 473
-        width: 257
-        height: 60
+        x: 32
+        y: 634
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -884,10 +884,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_25
       rect:
         serializedVersion: 2
-        x: 0
-        y: 441
-        width: 24
-        height: 31
+        x: 64
+        y: 634
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -906,10 +906,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_26
       rect:
         serializedVersion: 2
-        x: 31
-        y: 441
-        width: 25
-        height: 31
+        x: 96
+        y: 634
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -928,10 +928,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_27
       rect:
         serializedVersion: 2
-        x: 63
-        y: 441
-        width: 25
-        height: 31
+        x: 128
+        y: 634
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -950,10 +950,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_28
       rect:
         serializedVersion: 2
-        x: 95
-        y: 441
-        width: 25
-        height: 31
+        x: 160
+        y: 634
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -972,10 +972,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_29
       rect:
         serializedVersion: 2
-        x: 127
-        y: 441
-        width: 25
-        height: 31
+        x: 192
+        y: 634
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -994,10 +994,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_30
       rect:
         serializedVersion: 2
-        x: 159
-        y: 441
-        width: 25
-        height: 31
+        x: 224
+        y: 634
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1016,10 +1016,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_31
       rect:
         serializedVersion: 2
-        x: 191
-        y: 441
-        width: 25
-        height: 31
+        x: 0
+        y: 602
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1038,10 +1038,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_32
       rect:
         serializedVersion: 2
-        x: 223
-        y: 441
-        width: 25
-        height: 31
+        x: 32
+        y: 602
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1060,10 +1060,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_33
       rect:
         serializedVersion: 2
-        x: 0
-        y: 409
-        width: 257
-        height: 29
+        x: 64
+        y: 602
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1082,10 +1082,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_34
       rect:
         serializedVersion: 2
-        x: 0
-        y: 341
-        width: 257
-        height: 62
+        x: 96
+        y: 602
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1104,10 +1104,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_35
       rect:
         serializedVersion: 2
-        x: 3
-        y: 316
-        width: 6
-        height: 7
+        x: 128
+        y: 602
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1126,10 +1126,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_36
       rect:
         serializedVersion: 2
-        x: 7
-        y: 256
-        width: 26
-        height: 84
+        x: 160
+        y: 602
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1148,10 +1148,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_37
       rect:
         serializedVersion: 2
-        x: 35
-        y: 316
-        width: 6
-        height: 7
+        x: 192
+        y: 602
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1170,10 +1170,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_38
       rect:
         serializedVersion: 2
-        x: 39
-        y: 256
-        width: 26
-        height: 84
+        x: 224
+        y: 602
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1192,10 +1192,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_39
       rect:
         serializedVersion: 2
-        x: 67
-        y: 316
-        width: 6
-        height: 7
+        x: 0
+        y: 570
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1214,10 +1214,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_40
       rect:
         serializedVersion: 2
-        x: 71
-        y: 256
-        width: 26
-        height: 84
+        x: 32
+        y: 570
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1236,10 +1236,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_41
       rect:
         serializedVersion: 2
-        x: 99
-        y: 316
-        width: 6
-        height: 7
+        x: 64
+        y: 570
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1258,10 +1258,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_42
       rect:
         serializedVersion: 2
-        x: 103
-        y: 256
-        width: 26
-        height: 84
+        x: 96
+        y: 570
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1280,10 +1280,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_43
       rect:
         serializedVersion: 2
-        x: 131
-        y: 316
-        width: 6
-        height: 7
+        x: 128
+        y: 570
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1302,10 +1302,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_44
       rect:
         serializedVersion: 2
-        x: 135
-        y: 256
-        width: 26
-        height: 84
+        x: 160
+        y: 570
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1324,10 +1324,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_45
       rect:
         serializedVersion: 2
-        x: 163
-        y: 316
-        width: 6
-        height: 7
+        x: 192
+        y: 570
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1346,10 +1346,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_46
       rect:
         serializedVersion: 2
-        x: 167
-        y: 256
-        width: 26
-        height: 84
+        x: 224
+        y: 570
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1368,10 +1368,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_47
       rect:
         serializedVersion: 2
-        x: 195
-        y: 316
-        width: 6
-        height: 7
+        x: 0
+        y: 538
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1390,10 +1390,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_48
       rect:
         serializedVersion: 2
-        x: 199
-        y: 256
-        width: 26
-        height: 84
+        x: 32
+        y: 538
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1412,10 +1412,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_49
       rect:
         serializedVersion: 2
-        x: 227
-        y: 316
-        width: 6
-        height: 7
+        x: 64
+        y: 538
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1434,10 +1434,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_50
       rect:
         serializedVersion: 2
-        x: 231
-        y: 256
-        width: 26
-        height: 84
+        x: 96
+        y: 538
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1456,10 +1456,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_51
       rect:
         serializedVersion: 2
-        x: 2
-        y: 306
-        width: 6
-        height: 8
+        x: 128
+        y: 538
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1478,10 +1478,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_52
       rect:
         serializedVersion: 2
-        x: 34
-        y: 306
-        width: 6
-        height: 8
+        x: 160
+        y: 538
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1500,10 +1500,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_53
       rect:
         serializedVersion: 2
-        x: 66
-        y: 306
-        width: 6
-        height: 8
+        x: 192
+        y: 538
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1522,10 +1522,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_54
       rect:
         serializedVersion: 2
-        x: 98
-        y: 306
-        width: 6
-        height: 8
+        x: 224
+        y: 538
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1544,10 +1544,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_55
       rect:
         serializedVersion: 2
-        x: 130
-        y: 306
-        width: 6
-        height: 8
+        x: 0
+        y: 506
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1566,10 +1566,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_56
       rect:
         serializedVersion: 2
-        x: 162
-        y: 306
-        width: 6
-        height: 8
+        x: 32
+        y: 506
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1588,10 +1588,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_57
       rect:
         serializedVersion: 2
-        x: 194
-        y: 306
-        width: 6
-        height: 8
+        x: 64
+        y: 506
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1610,10 +1610,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_58
       rect:
         serializedVersion: 2
-        x: 226
-        y: 306
-        width: 6
-        height: 8
+        x: 96
+        y: 506
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1632,10 +1632,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_59
       rect:
         serializedVersion: 2
-        x: 2
-        y: 292
-        width: 7
-        height: 7
+        x: 128
+        y: 506
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1654,10 +1654,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_60
       rect:
         serializedVersion: 2
-        x: 34
-        y: 292
-        width: 7
-        height: 7
+        x: 160
+        y: 506
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1676,10 +1676,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_61
       rect:
         serializedVersion: 2
-        x: 66
-        y: 292
-        width: 7
-        height: 7
+        x: 192
+        y: 506
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1698,10 +1698,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_62
       rect:
         serializedVersion: 2
-        x: 98
-        y: 292
-        width: 7
-        height: 7
+        x: 224
+        y: 506
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1720,10 +1720,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_63
       rect:
         serializedVersion: 2
-        x: 130
-        y: 292
-        width: 7
-        height: 7
+        x: 0
+        y: 474
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1742,10 +1742,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_64
       rect:
         serializedVersion: 2
-        x: 162
-        y: 292
-        width: 7
-        height: 7
+        x: 32
+        y: 474
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1764,10 +1764,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_65
       rect:
         serializedVersion: 2
-        x: 194
-        y: 292
-        width: 7
-        height: 7
+        x: 64
+        y: 474
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1786,10 +1786,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_66
       rect:
         serializedVersion: 2
-        x: 226
-        y: 292
-        width: 7
-        height: 7
+        x: 96
+        y: 474
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1808,10 +1808,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_67
       rect:
         serializedVersion: 2
-        x: 4
-        y: 276
-        width: 7
-        height: 8
+        x: 128
+        y: 474
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1830,10 +1830,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_68
       rect:
         serializedVersion: 2
-        x: 36
-        y: 276
-        width: 7
-        height: 8
+        x: 160
+        y: 474
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1852,10 +1852,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_69
       rect:
         serializedVersion: 2
-        x: 68
-        y: 276
-        width: 7
-        height: 8
+        x: 192
+        y: 474
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1874,10 +1874,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_70
       rect:
         serializedVersion: 2
-        x: 100
-        y: 276
-        width: 7
-        height: 8
+        x: 224
+        y: 474
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1896,10 +1896,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_71
       rect:
         serializedVersion: 2
-        x: 132
-        y: 276
-        width: 7
-        height: 8
+        x: 0
+        y: 442
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1918,10 +1918,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_72
       rect:
         serializedVersion: 2
-        x: 164
-        y: 276
-        width: 7
-        height: 8
+        x: 32
+        y: 442
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1940,10 +1940,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_73
       rect:
         serializedVersion: 2
-        x: 196
-        y: 276
-        width: 7
-        height: 8
+        x: 64
+        y: 442
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1962,10 +1962,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_74
       rect:
         serializedVersion: 2
-        x: 228
-        y: 276
-        width: 7
-        height: 8
+        x: 96
+        y: 442
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1984,10 +1984,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_75
       rect:
         serializedVersion: 2
-        x: 0
-        y: 190
-        width: 257
-        height: 61
+        x: 128
+        y: 442
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2006,10 +2006,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_76
       rect:
         serializedVersion: 2
-        x: 0
-        y: 159
-        width: 257
-        height: 28
+        x: 160
+        y: 442
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2028,10 +2028,10 @@ TextureImporter:
       name: sea-color variation-spritesheet_77
       rect:
         serializedVersion: 2
-        x: 0
-        y: 57
-        width: 257
-        height: 98
+        x: 192
+        y: 442
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2046,11 +2046,2145 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 442
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4e8d56fd9a84236a83ec369df24cf3
+      internalID: 272856339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b766189753af147d981ff15916a07042
+      internalID: -169831698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 410
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db48c3342ca754dca89631e58999a9e8
+      internalID: 1766714889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 410
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4168568a51dae4804a07f2165ac2472d
+      internalID: 2076477568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 410
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6fe0def70ce4d02a5979df66244a89
+      internalID: 303111517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 410
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12215f785be234cdca8f3411f86fa5ea
+      internalID: -534894709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 410
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba09c9529d14a4d0eba10c6cffc72c73
+      internalID: 1064759359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 410
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04868186cbf814c82b1f089067894ae9
+      internalID: 1407347216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 410
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537396bb4edf2450aa155aa663ea645d
+      internalID: -398857719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717e5b446a4454e828fdda41414a4d01
+      internalID: 1799768635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 378
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d5d22f0b5574bd88021057b5b55241
+      internalID: 177015500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 378
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c835e8468f940a79b85031f02b49a6
+      internalID: -1277846934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 378
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11c95198cbf1458ebd33085fdd1a8d0
+      internalID: 1673260407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 378
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9364f7b3462ba47dbae258e6bb4039d0
+      internalID: -354996907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 378
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153d77acf9e2c4e61b99b7ed1999fd71
+      internalID: -1041859394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 378
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3335f9e002149bfbd0025342fd99dd
+      internalID: -1587001555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 378
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777c0d626fd5d4140ab1be347fbadb2b
+      internalID: -595289006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 346
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bb2abc885b443a6a7a51af7d129db4
+      internalID: -1859257464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 346
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04c8691a872143718ea642a014e0e08
+      internalID: -1200833723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 346
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f5d8fd1ce39425182aea0c33dfad4f
+      internalID: 112873613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 346
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4083d493e5b442e982d49b7cb6b592d
+      internalID: -1982093939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 346
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb3f45e3b02847afbbe49892fddf091
+      internalID: 1873962082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 346
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b0a0e9cbc3045a582de02648e2e994
+      internalID: 1714546663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 346
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8387f76486540aa8535192d335bfa3
+      internalID: 1340288220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 346
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1a64e8e00034cd48133d0f812f9028
+      internalID: 848021273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc993a550e7e4734b41d172647469fb
+      internalID: -1195920759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4503de86aeafa42bbac89cad76de8bae
+      internalID: 1062800318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8058b63d944064a5dbc6ae0ff9d38f35
+      internalID: 140586703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7704c84e220f24d69bd3d003e3dbd870
+      internalID: -1740800894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b95840e30e864d5ea60b2ebf1626b2c
+      internalID: 1504089344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bb45b106ee242b2aa4a77c0855e5a4
+      internalID: -1163585469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f157c6a661aef44579d3103c9842c1c8
+      internalID: -1705422633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 314
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d44bf1db394445b8ac6186722a7b5b
+      internalID: -472151178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41383869727094476b7d660724ca9a55
+      internalID: -1496476161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 282
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c991ad39786b48a498cdc45ac033866
+      internalID: -1061279425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 282
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cc85e44fa004f38a440a1d7d030f67
+      internalID: -642444027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 282
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f912a2eda4e8d4465afec21a46ed693d
+      internalID: -1444810300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 282
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f586fd88ba89435e816e1bb19151830
+      internalID: -1186208358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 282
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba72a3035a6ee40ce8ad459eaf6488d4
+      internalID: -534438426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 282
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ac9ec0f1eb44142bb1a5176d7de909
+      internalID: -533029879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 282
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7037d93c7b11948edac28fb0c45d155a
+      internalID: -176040367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdd1bfd87a814470bb5073f5abc5772
+      internalID: 1420770658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402d35b3d47564909891d91752082a2d
+      internalID: -170825959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa632b2903d104c2e81347225be96dc1
+      internalID: -124118064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8202b2edcf0a0482482b1f0427a2380a
+      internalID: 965914386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850204ca60742400084fc76a7bb37b12
+      internalID: 222983449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56258f6cdfd394942b5771357149680d
+      internalID: 156177041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7962919be69248e1b902fb9c40cde47
+      internalID: 305299769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 250
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e5d0a3372424bfdab2fd5a66e0b718
+      internalID: -11914763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666f5154bcc33422a8c84c790849d921
+      internalID: -1389340497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90aa323f55f4743c3998bc38281ff9d1
+      internalID: -1299660011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de5bd697908d485aa9863f4a9be274a
+      internalID: 722831501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36521661a0dc47e5a8c34c2c122721d
+      internalID: 407558815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2846bb156ba4f249831f7b2c2a9f62
+      internalID: -388068363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75f2750150fd4d1ea60e126a45c6f44
+      internalID: 1500402382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64caee94a93874c29a2b1bb829d9cc8b
+      internalID: 177817051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f897ef6ab72849dc88f7976f9996892
+      internalID: -203600727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f223ae5d463174aed9f007f71f18b73b
+      internalID: 1244926463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 186
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efd140d12fa84623aeabe8512fc1d69
+      internalID: -2042589601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 186
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231a0d1e5d9f04f9c993ae072332bfeb
+      internalID: -521221327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 186
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24113c9ba3d54186809f19f691931fa
+      internalID: -1579190203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 186
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840fd354d132141678c3dc5d3d8d47fe
+      internalID: -1751002259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 186
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e8abcf038da4a6891fe0fee0e1d41c
+      internalID: -931086315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 186
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6ee12c5e3f848bf98a678e7506a8a7
+      internalID: 2080292396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 186
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c11b69f40d0d46239e1e5fa8be3c866
+      internalID: 49638875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076068daded2a4bfdb45883d432d0d44
+      internalID: 991128704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 154
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965f9d2b5f19d4d1bba17df6350b899c
+      internalID: 477984396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_145
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 154
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fe6b0ace3aa4eb9a52d158b8b65c99
+      internalID: 1041388898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_146
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 154
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac2832f73de44a6d8ab78724ca462e4
+      internalID: -216312689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_147
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 154
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1caf788f4bee3475d97efce26e3e589a
+      internalID: -216112962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_148
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 154
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666b5c97dc4d642559732e84b5747a7f
+      internalID: -70839759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 154
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110af540e944b471d97c548d4433939e
+      internalID: 1052117494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_150
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 154
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f53c4cce3cbf41d7b51a2c22e34cf0e
+      internalID: -439730073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_151
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ceaf1c882be49f79b8c13144f56a52
+      internalID: -1075382080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_152
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc9e21f55c704074b1755916ffc0014
+      internalID: -627485131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_153
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f121643185e6540d29cdea0f7d00cbf1
+      internalID: -1420883346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_154
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e3182eeb72d4df582da966d3317a17
+      internalID: -621206198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_155
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19178b594c584d46a1d7a3c170b8d4c
+      internalID: 1269414122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_156
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deccb9c335f094af68d7de3e9fe427c1
+      internalID: 822946429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_157
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a619ccee4cebc4f039dbb74ce3fd17bb
+      internalID: 1339204199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_158
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a23fe4e3c76e41b7b9b527bfc5b63f6
+      internalID: -1745404958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bff1e351aca84d369e7de62f1758b5b
+      internalID: 1342902920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_160
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321a5076eda0c4f388da1be4257e54ec
+      internalID: 1899825083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8499b9a78657e413f977a5a0cccd4f63
+      internalID: -1986331489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_162
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda776d29c5e14d40b3522fd0451abd1
+      internalID: -1016972714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_163
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f53b1cf04674dd1ab5674b66ff27b8
+      internalID: -944585263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_164
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010af8320da7048a4985c8c661cf60ce
+      internalID: 1973289874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_165
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2a6222c0ff64d4286484f1d621e491
+      internalID: 1358030360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_166
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ca0c2b3feee48f8b0293f312f4fb15
+      internalID: 761493068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_167
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775cf8912f87b4679af6a31f8fa5386e
+      internalID: 618665828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_168
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fd2a60f31b04205b1fb9ac29b10186
+      internalID: -882769299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_169
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37b481b0b283496a858dbcc46e378fa
+      internalID: -788552019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_170
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb53f5e41cd94c69802843fea89f088
+      internalID: -1420543164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_171
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239b0f14d68834e659a105eeaf11b5c1
+      internalID: 32372268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_172
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c78f4a03ca1b44b088a096fd5195798
+      internalID: 1579149094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_173
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0151a5259e494bfb95d6b2714393a46
+      internalID: -846896847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea-color variation-spritesheet_174
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfddd71df8934962b95d13ec8554de7
+      internalID: -1828254243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c1d24e4541f8342d5b3ac7010cc2b3d2
     internalID: 0
     vertices: []
     indices: 
@@ -2063,13 +4197,88 @@ TextureImporter:
       sea-color variation-spritesheet_0: 2721790932861671186
       sea-color variation-spritesheet_1: 7216376366410314064
       sea-color variation-spritesheet_10: -3948577458290565219
+      sea-color variation-spritesheet_100: 1714546663
+      sea-color variation-spritesheet_101: 1340288220
+      sea-color variation-spritesheet_102: 848021273
+      sea-color variation-spritesheet_103: -1195920759
+      sea-color variation-spritesheet_104: 1062800318
+      sea-color variation-spritesheet_105: 140586703
+      sea-color variation-spritesheet_106: -1740800894
+      sea-color variation-spritesheet_107: 1504089344
+      sea-color variation-spritesheet_108: -1163585469
+      sea-color variation-spritesheet_109: -1705422633
       sea-color variation-spritesheet_11: 6415310535739987865
+      sea-color variation-spritesheet_110: -472151178
+      sea-color variation-spritesheet_111: -1496476161
+      sea-color variation-spritesheet_112: -1061279425
+      sea-color variation-spritesheet_113: -642444027
+      sea-color variation-spritesheet_114: -1444810300
+      sea-color variation-spritesheet_115: -1186208358
+      sea-color variation-spritesheet_116: -534438426
+      sea-color variation-spritesheet_117: -533029879
+      sea-color variation-spritesheet_118: -176040367
+      sea-color variation-spritesheet_119: 1420770658
       sea-color variation-spritesheet_12: -4336277288484284678
+      sea-color variation-spritesheet_120: -170825959
+      sea-color variation-spritesheet_121: -124118064
+      sea-color variation-spritesheet_122: 965914386
+      sea-color variation-spritesheet_123: 222983449
+      sea-color variation-spritesheet_124: 156177041
+      sea-color variation-spritesheet_125: 305299769
+      sea-color variation-spritesheet_126: -11914763
+      sea-color variation-spritesheet_127: -1389340497
+      sea-color variation-spritesheet_128: -1299660011
+      sea-color variation-spritesheet_129: 722831501
       sea-color variation-spritesheet_13: -6089521853349633934
+      sea-color variation-spritesheet_130: 407558815
+      sea-color variation-spritesheet_131: -388068363
+      sea-color variation-spritesheet_132: 1500402382
+      sea-color variation-spritesheet_133: 177817051
+      sea-color variation-spritesheet_134: -203600727
+      sea-color variation-spritesheet_135: 1244926463
+      sea-color variation-spritesheet_136: -2042589601
+      sea-color variation-spritesheet_137: -521221327
+      sea-color variation-spritesheet_138: -1579190203
+      sea-color variation-spritesheet_139: -1751002259
       sea-color variation-spritesheet_14: 153713797108879584
+      sea-color variation-spritesheet_140: -931086315
+      sea-color variation-spritesheet_141: 2080292396
+      sea-color variation-spritesheet_142: 49638875
+      sea-color variation-spritesheet_143: 991128704
+      sea-color variation-spritesheet_144: 477984396
+      sea-color variation-spritesheet_145: 1041388898
+      sea-color variation-spritesheet_146: -216312689
+      sea-color variation-spritesheet_147: -216112962
+      sea-color variation-spritesheet_148: -70839759
+      sea-color variation-spritesheet_149: 1052117494
       sea-color variation-spritesheet_15: -7166661030811048147
+      sea-color variation-spritesheet_150: -439730073
+      sea-color variation-spritesheet_151: -1075382080
+      sea-color variation-spritesheet_152: -627485131
+      sea-color variation-spritesheet_153: -1420883346
+      sea-color variation-spritesheet_154: -621206198
+      sea-color variation-spritesheet_155: 1269414122
+      sea-color variation-spritesheet_156: 822946429
+      sea-color variation-spritesheet_157: 1339204199
+      sea-color variation-spritesheet_158: -1745404958
+      sea-color variation-spritesheet_159: 1342902920
       sea-color variation-spritesheet_16: 8076960330845149387
+      sea-color variation-spritesheet_160: 1899825083
+      sea-color variation-spritesheet_161: -1986331489
+      sea-color variation-spritesheet_162: -1016972714
+      sea-color variation-spritesheet_163: -944585263
+      sea-color variation-spritesheet_164: 1973289874
+      sea-color variation-spritesheet_165: 1358030360
+      sea-color variation-spritesheet_166: 761493068
+      sea-color variation-spritesheet_167: 618665828
+      sea-color variation-spritesheet_168: -882769299
+      sea-color variation-spritesheet_169: -788552019
       sea-color variation-spritesheet_17: -8786608990138519574
+      sea-color variation-spritesheet_170: -1420543164
+      sea-color variation-spritesheet_171: 32372268
+      sea-color variation-spritesheet_172: 1579149094
+      sea-color variation-spritesheet_173: -846896847
+      sea-color variation-spritesheet_174: -1828254243
       sea-color variation-spritesheet_18: -8545075076029671639
       sea-color variation-spritesheet_19: -695270527663694732
       sea-color variation-spritesheet_2: 1766806061773461084
@@ -2136,8 +4345,30 @@ TextureImporter:
       sea-color variation-spritesheet_75: -7625687918858562118
       sea-color variation-spritesheet_76: 8234242619911141403
       sea-color variation-spritesheet_77: 5886235316778842714
+      sea-color variation-spritesheet_78: 272856339
+      sea-color variation-spritesheet_79: -169831698
       sea-color variation-spritesheet_8: -8878201276162787908
+      sea-color variation-spritesheet_80: 1766714889
+      sea-color variation-spritesheet_81: 2076477568
+      sea-color variation-spritesheet_82: 303111517
+      sea-color variation-spritesheet_83: -534894709
+      sea-color variation-spritesheet_84: 1064759359
+      sea-color variation-spritesheet_85: 1407347216
+      sea-color variation-spritesheet_86: -398857719
+      sea-color variation-spritesheet_87: 1799768635
+      sea-color variation-spritesheet_88: 177015500
+      sea-color variation-spritesheet_89: -1277846934
       sea-color variation-spritesheet_9: -9169319583736767151
+      sea-color variation-spritesheet_90: 1673260407
+      sea-color variation-spritesheet_91: -354996907
+      sea-color variation-spritesheet_92: -1041859394
+      sea-color variation-spritesheet_93: -1587001555
+      sea-color variation-spritesheet_94: -595289006
+      sea-color variation-spritesheet_95: -1859257464
+      sea-color variation-spritesheet_96: -1200833723
+      sea-color variation-spritesheet_97: 112873613
+      sea-color variation-spritesheet_98: -1982093939
+      sea-color variation-spritesheet_99: 1873962082
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

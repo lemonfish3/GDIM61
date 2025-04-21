@@ -42,5 +42,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: environment
+    uniqueID: 2316265879
+    locked: 0
+  - name: buildings
+    uniqueID: 1640480169
+    locked: 0
+  - name: props
+    uniqueID: 4182912309
+    locked: 0
+  - name: necessary layer
+    uniqueID: 4292496687
+    locked: 0
+  - name: Player
+    uniqueID: 516831645
+    locked: 0
+  - name: above player
+    uniqueID: 2848780271
+    locked: 0
   m_RenderingLayers:
   - Default
