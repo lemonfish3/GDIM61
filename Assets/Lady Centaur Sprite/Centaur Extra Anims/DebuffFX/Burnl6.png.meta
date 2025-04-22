@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Burnl6_0: 609399823736305851
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

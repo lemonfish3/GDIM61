@@ -584,7 +584,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crouch-Sheet_0: -907930228044894708
+      Crouch-Sheet_1: -1868853367690783081
+      Crouch-Sheet_10: -1542763221251482927
+      Crouch-Sheet_11: 3480728590550527730
+      Crouch-Sheet_12: -5877680173879182279
+      Crouch-Sheet_13: 6678415671211863670
+      Crouch-Sheet_14: 6892366737641022599
+      Crouch-Sheet_15: 5386046315863031244
+      Crouch-Sheet_16: -5893895456333616169
+      Crouch-Sheet_17: -5540525829113143751
+      Crouch-Sheet_18: 1014584032112309979
+      Crouch-Sheet_2: 4220510265214342017
+      Crouch-Sheet_3: -4380942309728880918
+      Crouch-Sheet_4: 7165503485930354995
+      Crouch-Sheet_5: -1835195160217161988
+      Crouch-Sheet_6: -3341453237687887693
+      Crouch-Sheet_7: -3951399194701326863
+      Crouch-Sheet_8: 5202589002463076309
+      Crouch-Sheet_9: 7759602382399344094
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

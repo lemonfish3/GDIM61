@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CrouchFastShoot6_0: 3128617238909405423
+      CrouchFastShoot6_1: 5682618276341195116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

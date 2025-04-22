@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CastFX13_0: -7292750309971076231
+      CastFX13_1: -4081143510282720453
+      CastFX13_2: 5644307370157593797
+      CastFX13_3: 9014523163306076571
+      CastFX13_4: 4634321842508462574
+      CastFX13_5: 2117805549570368135
+      CastFX13_6: -5541813055295630231
+      CastFX13_7: -3602340341509546858
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

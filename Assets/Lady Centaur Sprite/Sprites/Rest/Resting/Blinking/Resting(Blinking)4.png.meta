@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Resting(Blinking)4_0: -7824579324660825995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

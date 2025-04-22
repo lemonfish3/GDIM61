@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SnareDebuff2_0: 3804899854579347850
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

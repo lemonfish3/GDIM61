@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StunFX(Fade)2_0: -6175753689718209978
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

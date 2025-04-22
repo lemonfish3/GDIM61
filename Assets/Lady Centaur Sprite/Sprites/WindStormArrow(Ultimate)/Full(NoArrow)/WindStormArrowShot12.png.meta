@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WindStormArrowShot12_0: -1847740304936825770
+      WindStormArrowShot12_1: 6983852693693437932
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

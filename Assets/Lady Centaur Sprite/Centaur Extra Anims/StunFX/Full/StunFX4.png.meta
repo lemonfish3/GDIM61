@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StunFX4_0: 1703919616437467715
+      StunFX4_1: 3989642656184237925
+      StunFX4_2: -7499458869160082253
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

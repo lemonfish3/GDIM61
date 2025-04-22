@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sowing2_0: -7360226967768079479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

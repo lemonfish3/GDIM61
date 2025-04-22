@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpringRain32_0: 4437854598529980979
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WindStorm(Glown)10_0: 3696577756393347336
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ShotFall5_0: 5533622153974298019
+      ShotFall5_1: 8763945469269358866
+      ShotFall5_10: 7156472711377674743
+      ShotFall5_11: 3671077441170708459
+      ShotFall5_2: 4316043222452164795
+      ShotFall5_3: -304373959421247142
+      ShotFall5_4: -6094157974701686272
+      ShotFall5_5: 4055151538341380543
+      ShotFall5_6: -1035826459824602951
+      ShotFall5_7: -4629235442307564691
+      ShotFall5_8: -755746177538145237
+      ShotFall5_9: 5365935264356540081
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

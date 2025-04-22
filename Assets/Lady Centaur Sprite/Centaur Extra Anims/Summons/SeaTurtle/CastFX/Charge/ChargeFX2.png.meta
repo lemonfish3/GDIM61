@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ChargeFX2_0: -3769439011252074240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

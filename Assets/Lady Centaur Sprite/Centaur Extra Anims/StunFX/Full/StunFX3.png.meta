@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StunFX3_0: 6878083694459363231
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

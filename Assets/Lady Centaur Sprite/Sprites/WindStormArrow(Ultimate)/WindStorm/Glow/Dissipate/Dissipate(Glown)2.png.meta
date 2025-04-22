@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dissipate(Glown)2_0: -5988655005821052037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

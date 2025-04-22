@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Snare10_0: -4553612929003071396
+      Snare10_1: 7706704807573352460
+      Snare10_2: 8346326903089654305
+      Snare10_3: -8261224860192895183
+      Snare10_4: -5285809699415583391
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

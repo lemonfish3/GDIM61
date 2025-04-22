@@ -244,4 +244,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoints: []
-  teleportKey: 113
+  teleportKey: 101

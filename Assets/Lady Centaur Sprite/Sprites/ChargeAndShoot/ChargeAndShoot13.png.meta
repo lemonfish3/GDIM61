@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ChargeAndShoot13_0: 7208637625706549159
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

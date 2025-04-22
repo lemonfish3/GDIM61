@@ -484,7 +484,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WindStorm11_0: -1927918331757647287
+      WindStorm11_1: -8000110473676450084
+      WindStorm11_10: 5933678817736276746
+      WindStorm11_11: 5797006819659623591
+      WindStorm11_12: 8403749580756338676
+      WindStorm11_13: -5487489353420223606
+      WindStorm11_14: -561937978680838383
+      WindStorm11_2: -8392802939837967161
+      WindStorm11_3: -8689295285117725061
+      WindStorm11_4: -4471271422367879304
+      WindStorm11_5: 4267439554189305274
+      WindStorm11_6: -7432579724240677403
+      WindStorm11_7: -5932939275739547362
+      WindStorm11_8: -8245507847177331686
+      WindStorm11_9: -6439583997695520497
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AttachedFlower5_0: -5693752737022960842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

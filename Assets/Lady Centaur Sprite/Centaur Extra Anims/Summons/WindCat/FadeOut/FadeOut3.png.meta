@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FadeOut3_0: -5176261947628019375
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

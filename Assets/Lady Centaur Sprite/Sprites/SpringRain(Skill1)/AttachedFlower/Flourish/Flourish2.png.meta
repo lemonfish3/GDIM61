@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flourish2_0: 1349426152619914760
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

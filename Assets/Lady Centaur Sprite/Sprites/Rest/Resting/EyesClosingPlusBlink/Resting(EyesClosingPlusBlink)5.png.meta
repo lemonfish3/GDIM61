@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Resting(EyesClosingPlusBlink)5_0: 6598874756503664327
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
