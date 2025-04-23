@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1073496055161064193}
   - component: {fileID: 5394816599516433715}
   - component: {fileID: 5469779448365223490}
-  - component: {fileID: 3724969222404802656}
+  - component: {fileID: 14276058169136719}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Player
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2633370305967772840}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c34b3b9cad01194d82db6622d64fde3, type: 3}
   m_Name: 
@@ -231,7 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59906eb0274e2f7449b2d305a620e1c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3724969222404802656
+--- !u!114 &14276058169136719
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -243,5 +243,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 322001a78beedc2429bf6f9110c12862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoints: []
-  teleportKey: 101
+  spawnPoints:
+  - {fileID: 3915471094877642883, guid: 4ac66d076fea6e34481a94e39f593e51, type: 3}
+  - {fileID: 3409976947505471746, guid: b7f75e1522accbf45bf891cb1a4b31e7, type: 3}
+  - {fileID: 9120694159563310923, guid: 00163756bfe1e8348ab5f9b1585b2e50, type: 3}
+  teleportKey: 113
