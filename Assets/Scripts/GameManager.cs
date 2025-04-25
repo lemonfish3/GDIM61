@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         currentState = GameState.Playing;
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("World 1");
     }
 
     public void GameOver()

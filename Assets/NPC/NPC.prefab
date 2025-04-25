@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 272585101539250808}
   - component: {fileID: 429753342958445806}
-  - component: {fileID: 3769087456235414961}
+  - component: {fileID: 7139831045414346289}
+  - component: {fileID: 2418086508348489280}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.44, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,10 +75,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 516831645
+  m_SortingLayer: 5
   m_SortingOrder: 1
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c212baeb8048b4778bce44825f5c74f8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -88,7 +89,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3769087456235414961
+--- !u!114 &7139831045414346289
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,12 +102,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - click to continue
-  - Welcome to this demo
-  - Hello World!
-  - see you around
-  dialogueKey: 32
+  - speaker: NPC
+    line: 'NPC: Hi, welcome! I''m Lady Centure. Here are some tips before you continue
+      onto your quest.'
+  - speaker: You
+    line: ' Hi, please tell me more!'
+  - speaker: NPC
+    line: 'Use keys 1 and 2 to switch between characters. '
+  - speaker: NPC
+    line: To release your attack, use key Q.
+  - speaker: NPC
+    line: 'You will encounter some pirates on this quest. So be weary as you enter
+      the pirate camp. '
+  - speaker: NPC
+    line: 'Best of luck! '
+  dialogueKey: 120
   displayRadius: 1.5
   dialoguePanel: {fileID: 0}
   dialogueText: {fileID: 0}
+  speakerName: {fileID: 0}
   talkPromptUI: {fileID: 0}
+  powerUpPanel: {fileID: 0}
+--- !u!95 &2418086508348489280
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5926284962306601545}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 718f53d60985d9b49b6998ab76e30f5a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
