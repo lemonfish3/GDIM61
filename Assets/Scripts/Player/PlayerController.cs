@@ -32,6 +32,14 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("Horizontal", moveInput.x);
             animator.SetFloat("Vertical", moveInput.y);
         }
+        if (moveX > 0.1f)
+        {
+            transform.localScale = new Vector3(2, 2, 1);
+        }
+        else if (moveX < -0.1f) 
+        {
+            transform.localScale = new Vector3(-2, 2, 1);
+        }
     }
 
     void FixedUpdate()
