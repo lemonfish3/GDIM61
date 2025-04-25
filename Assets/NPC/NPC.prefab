@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 272585101539250808}
   - component: {fileID: 429753342958445806}
   - component: {fileID: 7139831045414346289}
-  - component: {fileID: 2418086508348489280}
+  - component: {fileID: 2443732634429785805}
+  - component: {fileID: 7922407291789276419}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -123,7 +124,43 @@ MonoBehaviour:
   speakerName: {fileID: 0}
   talkPromptUI: {fileID: 0}
   powerUpPanel: {fileID: 0}
---- !u!95 &2418086508348489280
+--- !u!114 &2443732634429785805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5926284962306601545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e1e7fff5bd26cb43a10b78c666499a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: NPC
+    line: 'NPC: Hi, welcome! I''m Lady Centure. Here are some tips before you continue
+      onto your quest.'
+  - speaker: You
+    line: ' Hi, please tell me more!'
+  - speaker: NPC
+    line: 'Use keys 1 and 2 to switch between characters. '
+  - speaker: NPC
+    line: To release your attack, use key Q.
+  - speaker: NPC
+    line: 'To use power ups, use keys: X, Z, C, V (right to left).'
+  - speaker: NPC
+    line: 'You will encounter some pirates on this quest. So be weary as you enter
+      the pirate camp. '
+  - speaker: NPC
+    line: 'Best of luck! '
+  dialogueKey: 120
+  displayRadius: 1.5
+  dialoguePanel: {fileID: 0}
+  dialogueText: {fileID: 0}
+  speakerName: {fileID: 0}
+  talkPromptUI: {fileID: 0}
+  powerUpPanel: {fileID: 0}
+--- !u!95 &7922407291789276419
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
