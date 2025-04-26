@@ -34,7 +34,7 @@ public class CharacrerSwitch : MonoBehaviour
                 if (i < healthBars.Length)
                     health.healthBar = healthBars[i];
 
-                health.gameManager = gameManager;  // 👈 ADD THIS LINE
+                health.gameManager = gameManager; 
             }
 
             gameManager.AddPlayer(characterInstances[i]);
