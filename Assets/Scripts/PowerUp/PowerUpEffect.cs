@@ -5,65 +5,81 @@ public class PowerUpEffect : MonoBehaviour
     private PlayerController playerController;
     private PlayerHealth playerHealth;
 
+    private GameManager gameManager;
+
     private void Awake()
     {
         playerController = GetComponent<PlayerController>();
         playerHealth = GetComponent<PlayerHealth>();
+
+        gameManager = FindFirstObjectByType<GameManager>(); // Cache reference
     }
+
 
     public void ApplyEffect(string effectName)
     {
-        switch(effectName)
+        switch (effectName)
         {
             case "SpeedBoost":
-                playerController.moveSpeed *= 2f;
+                if (playerController != null)
+                    playerController.moveSpeed *= 2f;
                 break;
 
             case "HealAll":
                 HealAllCharacters(50f);
                 break;
-                
+
             case "HealOne":
-                playerHealth.currentHealth = Mathf.Min(playerHealth.maxHealth, playerHealth.currentHealth + 50);
-                playerHealth.UpdateHealthUI();
+                if (playerHealth != null)
+                {
+                    playerHealth.currentHealth = Mathf.Min(playerHealth.maxHealth, playerHealth.currentHealth + 50);
+                    playerHealth.UpdateHealthUI();
+                }
                 break;
 
             case "Shield":
-                playerHealth.shieldActive = true;
+                if (playerHealth != null)
+                    playerHealth.shieldActive = true;
                 break;
 
             default:
                 Debug.LogWarning($"Unknown power-up effect: {effectName}");
                 break;
-            }
         }
+    }
 
     public void RemoveEffect(string effectName)
     {
         switch (effectName)
         {
             case "SpeedBoost":
-                playerController.moveSpeed /= 2f;
+                if (playerController != null)
+                    playerController.moveSpeed /= 2f;
                 break;
 
             case "Shield":
-                playerHealth.shieldActive = false;
+                if (playerHealth != null)
+                    playerHealth.shieldActive = false;
                 break;
 
-                // Heal effects are instant, so nothing to remove.
+                // Heal effects are instant; no removal needed.
         }
     }
 
     private void HealAllCharacters(float amount)
     {
-        PowerUpEffect[] allPlayers = FindObjectsByType<PowerUpEffect>(FindObjectsSortMode.None);
-        foreach (var p in allPlayers)
+        foreach (GameObject player in gameManager.GetAllPlayers())
         {
-            if (p.playerHealth != null)
+            if (player != null)
             {
-                p.playerHealth.currentHealth = Mathf.Min(p.playerHealth.maxHealth, p.playerHealth.currentHealth + amount);
-                p.playerHealth.UpdateHealthUI();
+                PlayerHealth health = player.GetComponent<PlayerHealth>();
+                if (health != null && health.currentHealth > 0)
+                {
+                    health.currentHealth = Mathf.Min(health.maxHealth, health.currentHealth + amount);
+                    health.UpdateHealthUI();
+                }
             }
         }
     }
+
 }

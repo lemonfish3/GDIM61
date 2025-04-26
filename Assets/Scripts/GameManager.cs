@@ -40,6 +40,12 @@ public class GameManager : MonoBehaviour
         players.Add(player);
     }
 
+    public List<GameObject> GetAllPlayers()
+    {
+        return players;
+    }
+
+
     public void Pause()
     {
         currentState = GameState.Paused;

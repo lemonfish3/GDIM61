@@ -20,12 +20,14 @@ public class PlayerHealth : MonoBehaviour
     public GameManager gameManager;
     public HealthBar healthBar;
 
+    void Awake()
+    {
+        currentHealth = maxHealth;  // Set right away when the object wakes
+        UpdateHealthUI();
+    }
     void Start()
     {
-        currentHealth = maxHealth;
-
-        // NO more finding at runtime, assume references are assigned properly
-        UpdateHealthUI();
+        // moved to awake()
     }
 
     void Update()
@@ -81,8 +83,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void Die()
     {
-        gameObject.SetActive(false);  // Disable the player GameObject
-        gameManager.CheckGameOver();  // Check if all players are dead
+        CharacrerSwitch.Instance.SwitchToNextAliveCharacter();
     }
 
 

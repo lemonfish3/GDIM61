@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class CharacrerSwitch : MonoBehaviour
 {
+    public static CharacrerSwitch Instance { get; private set; }
+
     public static Transform ActivePlayer { get; private set; }
 
     public GameObject[] characterPrefabs;
@@ -18,6 +20,7 @@ public class CharacrerSwitch : MonoBehaviour
 
     void Start()
     {
+        Instance = this;
         characterInstances = new GameObject[characterPrefabs.Length];
 
         for (int i = 0; i < characterPrefabs.Length; i++)
@@ -41,7 +44,7 @@ public class CharacrerSwitch : MonoBehaviour
     }
 
     void Update()
-    {
+    {   
         if (Input.GetKeyDown(KeyCode.Alpha1)) SwitchCharacter(0);
         if (Input.GetKeyDown(KeyCode.Alpha2)) SwitchCharacter(1);
         if (Input.GetKeyDown(KeyCode.Alpha3)) SwitchCharacter(2);
@@ -49,6 +52,15 @@ public class CharacrerSwitch : MonoBehaviour
 
     void SwitchCharacter(int index)
     {
+        if (index + 1 > characterInstances.Length) return;
+
+        var health = characterInstances[index].GetComponent<PlayerHealth>();
+        if (health != null && health.currentHealth <= 0)
+        {
+            Debug.LogWarning($"Cannot switch to dead character {currentCharacter.name}");
+            return; // Don't switch to dead character
+        }
+
         if (currentCharacter != null)
         {
             currentPosition = currentCharacter.transform.position;
@@ -58,6 +70,7 @@ public class CharacrerSwitch : MonoBehaviour
         {
             currentPosition = transform.position;
         }
+
 
         currentCharacter = characterInstances[index];
         currentCharacter.transform.position = currentPosition;
@@ -71,7 +84,7 @@ public class CharacrerSwitch : MonoBehaviour
 
         ActivePlayer = currentCharacter.transform;
 
-        var health = currentCharacter.GetComponent<PlayerHealth>();
+
         if (health != null)
         {
             health.UpdateHealthUI();
@@ -79,4 +92,26 @@ public class CharacrerSwitch : MonoBehaviour
 
         Debug.Log($"Switched to character {index + 1}: {currentCharacter.name}");
     }
+
+
+
+    public void SwitchToNextAliveCharacter()
+    {
+        for (int i = 0; i < characterInstances.Length; i++)
+        {
+            var health = characterInstances[i].GetComponent<PlayerHealth>();
+            if (health != null && health.currentHealth > 0)
+            {
+                SwitchCharacter(i);
+                return;
+            }
+        }
+
+        // No alive characters found
+        Debug.Log("No alive characters left!");
+        gameManager.GameOver();
+    }
+
+
+
 }
