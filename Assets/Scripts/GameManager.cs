@@ -1,20 +1,22 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
-{   
-    public enum GameState { Playing, Paused, GameOver}
+{
+    public enum GameState { Playing, Paused, GameOver }
     public GameState currentState = GameState.Playing;
     public GameObject pauseScreen;
     public GameObject gameOver;
     public GameObject pauseButton;
+
+    private List<GameObject> players = new List<GameObject>();  // List to track players
 
     private void Start()
     {
         Time.timeScale = 1f;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -29,10 +31,15 @@ public class GameManager : MonoBehaviour
                 Resume();
                 pauseButton.SetActive(true);
             }
-
         }
     }
-    
+
+    // Add player to the list when instantiated
+    public void AddPlayer(GameObject player)
+    {
+        players.Add(player);
+    }
+
     public void Pause()
     {
         currentState = GameState.Paused;
@@ -73,5 +80,25 @@ public class GameManager : MonoBehaviour
     public void ReturnMain()
     {
         SceneManager.LoadScene("menu");
+    }
+
+    // This checks if all players are dead
+    public void CheckGameOver()
+    {
+        bool allDead = true;
+
+        foreach (GameObject player in players)
+        {
+            if (player.activeSelf) // If any player is alive
+            {
+                allDead = false;
+                break;
+            }
+        }
+
+        if (allDead)
+        {
+            GameOver();
+        }
     }
 }

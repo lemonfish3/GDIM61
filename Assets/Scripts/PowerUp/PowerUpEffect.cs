@@ -25,7 +25,7 @@ public class PowerUpEffect : MonoBehaviour
                 
             case "HealOne":
                 playerHealth.currentHealth = Mathf.Min(playerHealth.maxHealth, playerHealth.currentHealth + 50);
-                playerHealth.ForceUpdateUI();
+                playerHealth.UpdateHealthUI();
                 break;
 
             case "Shield":
@@ -62,7 +62,7 @@ public class PowerUpEffect : MonoBehaviour
             if (p.playerHealth != null)
             {
                 p.playerHealth.currentHealth = Mathf.Min(p.playerHealth.maxHealth, p.playerHealth.currentHealth + amount);
-                p.playerHealth.ForceUpdateUI();
+                p.playerHealth.UpdateHealthUI();
             }
         }
     }

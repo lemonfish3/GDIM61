@@ -24,30 +24,8 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth = maxHealth;
 
-        // Assign UI text if not set
-        if (healthText == null)
-        {
-            GameObject uiText = GameObject.Find("HP");
-            if (uiText != null)
-            {
-                Debug.Log("find ui");
-                healthText = uiText.GetComponent<TextMeshProUGUI>();
-            }
-        }
-
-        // Assign GameManager if not set
-        if (gameManager == null)
-        {
-            gameManager = FindFirstObjectByType<GameManager>();
-        }
-
-        // Assign HealthBar if not set
-        if (healthBar == null)
-        {
-            healthBar = FindFirstObjectByType<HealthBar>();
-        }
-
-        UpadateHealthUI();
+        // NO more finding at runtime, assume references are assigned properly
+        UpdateHealthUI();
     }
 
     void Update()
@@ -70,12 +48,16 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    void UpadateHealthUI()
+    public void UpdateHealthUI()
     {
         if (healthText != null)
         {
-            Debug.Log("HP updating..");
             healthText.text = $"HP: {Mathf.Ceil(currentHealth)}";
+        }
+
+        if (healthBar != null)
+        {
+            healthBar.UpdateHealth(currentHealth, maxHealth);
         }
     }
 
@@ -83,33 +65,25 @@ public class PlayerHealth : MonoBehaviour
     {
         if (shieldActive)
         {
-            Debug.Log("shield active");
+            Debug.Log("Shield active");
             return;
         }
 
         currentHealth -= damage;
         currentHealth = Mathf.Max(currentHealth, 0);
-        UpadateHealthUI();
-
-        if (healthBar != null)
-        {
-            healthBar.UpdateHealth(currentHealth, maxHealth);
-        }
+        UpdateHealthUI();
 
         if (currentHealth <= 0)
         {
-            if (healthBar != null)
-            {
-                healthBar.UpdateHealth(0f, maxHealth); // Force exact zero
-            }
-
-            Debug.Log("player died");
-            gameManager.GameOver();
+            Die();
         }
     }
 
-    public void ForceUpdateUI()
+    public void Die()
     {
-        UpadateHealthUI();
+        gameObject.SetActive(false);  // Disable the player GameObject
+        gameManager.CheckGameOver();  // Check if all players are dead
     }
+
+
 }

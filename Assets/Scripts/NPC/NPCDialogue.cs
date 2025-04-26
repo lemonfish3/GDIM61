@@ -16,7 +16,7 @@ public class NPCDialogue : MonoBehaviour
     public DialogueLine[] dialogueLines;
 
     public KeyCode dialogueKey = KeyCode.X;
-    public float displayRadius = 1.5f;
+    public float displayRadius = 2f;
     public GameObject dialoguePanel;
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI speakerName;
