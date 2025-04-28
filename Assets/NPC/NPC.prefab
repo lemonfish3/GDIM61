@@ -98,24 +98,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5926284962306601545}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e1e7fff5bd26cb43a10b78c666499a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speaker: 'Red Ruth Sparrow  '
-    line: 'NPC: Hi, welcome! I''m Lady Centure. Here are some tips before you continue
-      onto your quest.'
+  - speaker: NPC
+    line: Hi, welcome! I'm Red Ruth Sparrow. Here are some tips before you continue
+      onto your quest.
   - speaker: You
     line: ' Hi, please tell me more!'
-  - speaker: 'Red Ruth Sparrow  '
+  - speaker: NPC
     line: 'Use keys 1 and 2 to switch between characters. '
-  - speaker: 'Red Ruth Sparrow  '
+  - speaker: NPC
     line: To release your attack, use key Q.
-  - speaker: 'Red Ruth Sparrow  '
+  - speaker: NPC
     line: 'During this quest you must defeat 10 pirates in order to move on. '
-  - speaker: 'Red Ruth Sparrow  '
+  - speaker: NPC
     line: 'Best of luck! '
   dialogueKey: 102
   displayRadius: 3
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5926284962306601545}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e1e7fff5bd26cb43a10b78c666499a7, type: 3}
   m_Name: 
