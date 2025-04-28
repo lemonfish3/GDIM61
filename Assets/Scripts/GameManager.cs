@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public GameObject pauseScreen;
     public GameObject gameOver;
     public GameObject pauseButton;
+    public GameObject powerBar;
 
     private List<GameObject> players = new List<GameObject>();  // List to track players
 
@@ -52,6 +53,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
         Debug.Log("Game Paused");
         pauseScreen.SetActive(true);
+        powerBar.SetActive(false);
     }
 
     public void Resume()
@@ -60,6 +62,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         Debug.Log("Game Resumed");
         pauseScreen.SetActive(false);
+        powerBar.SetActive(true);
     }
 
     public void Reset()
@@ -73,6 +76,7 @@ public class GameManager : MonoBehaviour
     {
         currentState = GameState.GameOver;
         gameOver.SetActive(true);
+        powerBar.SetActive(false);
         Time.timeScale = 0f;
         Debug.Log("Game Over");
     }
