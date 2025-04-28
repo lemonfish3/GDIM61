@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;  // Needed for IEnumerator
 
 public class PlayerSword : MonoBehaviour
 {
@@ -6,13 +7,34 @@ public class PlayerSword : MonoBehaviour
     public KeyCode attackKey = KeyCode.Q;
     public LayerMask enemyLayer;
 
-    // Update is called once per frame
+    private Animator animator;
+    private bool isAttacking = false;
+    public float attackDuration = 0.5f; // Adjust to match your attack animation length
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();  // Get Animator component
+    }
+
     void Update()
     {
-        if (Input.GetKeyDown(attackKey))
+        if (Input.GetKeyDown(attackKey) && !isAttacking)
         {
-            SwingAttack();
+            StartCoroutine(AttackRoutine());
         }
+    }
+
+    IEnumerator AttackRoutine()
+    {
+        isAttacking = true;
+        animator.SetBool("isAttacking", true);  // Trigger animation
+
+        SwingAttack();  // Damage logic
+
+        yield return new WaitForSeconds(attackDuration);  // Wait for animation to finish
+
+        animator.SetBool("isAttacking", false);  // Reset animation
+        isAttacking = false;
     }
 
     void SwingAttack()
@@ -27,7 +49,6 @@ public class PlayerSword : MonoBehaviour
                 Destroy(enemy.gameObject);
                 Debug.Log($"Destroyed enemy: {enemy.name}");
 
-                // Tell the counter
                 if (EnemyCounter.Instance != null)
                 {
                     EnemyCounter.Instance.EnemyDestroyed();
@@ -35,5 +56,4 @@ public class PlayerSword : MonoBehaviour
             }
         }
     }
-
 }
