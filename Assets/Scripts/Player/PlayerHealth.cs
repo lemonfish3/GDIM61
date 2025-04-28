@@ -20,34 +20,14 @@ public class PlayerHealth : MonoBehaviour
     public GameManager gameManager;
     public HealthBar healthBar;
 
+    void Awake()
+    {
+        currentHealth = maxHealth;  // Set right away when the object wakes
+        UpdateHealthUI();
+    }
     void Start()
     {
-        currentHealth = maxHealth;
-
-        // Assign UI text if not set
-        if (healthText == null)
-        {
-            GameObject uiText = GameObject.Find("HP");
-            if (uiText != null)
-            {
-                Debug.Log("find ui");
-                healthText = uiText.GetComponent<TextMeshProUGUI>();
-            }
-        }
-
-        // Assign GameManager if not set
-        if (gameManager == null)
-        {
-            gameManager = FindFirstObjectByType<GameManager>();
-        }
-
-        // Assign HealthBar if not set
-        if (healthBar == null)
-        {
-            healthBar = FindFirstObjectByType<HealthBar>();
-        }
-
-        UpadateHealthUI();
+        // moved to awake()
     }
 
     void Update()
@@ -70,12 +50,16 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    void UpadateHealthUI()
+    public void UpdateHealthUI()
     {
         if (healthText != null)
         {
-            Debug.Log("HP updating..");
             healthText.text = $"HP: {Mathf.Ceil(currentHealth)}";
+        }
+
+        if (healthBar != null)
+        {
+            healthBar.UpdateHealth(currentHealth, maxHealth);
         }
     }
 
@@ -83,33 +67,24 @@ public class PlayerHealth : MonoBehaviour
     {
         if (shieldActive)
         {
-            Debug.Log("shield active");
+            Debug.Log("Shield active");
             return;
         }
 
         currentHealth -= damage;
         currentHealth = Mathf.Max(currentHealth, 0);
-        UpadateHealthUI();
-
-        if (healthBar != null)
-        {
-            healthBar.UpdateHealth(currentHealth, maxHealth);
-        }
+        UpdateHealthUI();
 
         if (currentHealth <= 0)
         {
-            if (healthBar != null)
-            {
-                healthBar.UpdateHealth(0f, maxHealth); // Force exact zero
-            }
-
-            Debug.Log("player died");
-            gameManager.GameOver();
+            Die();
         }
     }
 
-    public void ForceUpdateUI()
+    public void Die()
     {
-        UpadateHealthUI();
+        CharacrerSwitch.Instance.SwitchToNextAliveCharacter();
     }
+
+
 }

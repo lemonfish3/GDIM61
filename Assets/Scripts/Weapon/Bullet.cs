@@ -23,6 +23,11 @@ public class Bullet : MonoBehaviour
             Debug.Log("Bullet hit enemy!");
             Destroy(other.gameObject);  // destroy the enemy
             Destroy(gameObject);
+
+            if (EnemyCounter.Instance != null)
+            {
+                EnemyCounter.Instance.EnemyDestroyed();
+            }
         }
     }
 }

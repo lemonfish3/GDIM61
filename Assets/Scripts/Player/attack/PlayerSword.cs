@@ -22,10 +22,18 @@ public class PlayerSword : MonoBehaviour
 
         foreach (Collider2D enemy in enemiesHit)
         {
-            if (enemy.CompareTag("Enemy")){
+            if (enemy.CompareTag("Enemy"))
+            {
                 Destroy(enemy.gameObject);
                 Debug.Log($"Destroyed enemy: {enemy.name}");
+
+                // Tell the counter
+                if (EnemyCounter.Instance != null)
+                {
+                    EnemyCounter.Instance.EnemyDestroyed();
+                }
             }
         }
     }
+
 }
