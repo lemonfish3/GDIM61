@@ -132,6 +132,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   spawnRadius: 10
+  EnemyWeaponPrefab: {fileID: 7645062700223047566, guid: 373e54de8712e10439392ca5568f54e0, type: 3}
+  shootInterval: 2
 --- !u!70 &6121787227952199214
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
