@@ -39,7 +39,7 @@ public class PowerUpEffect : MonoBehaviour
 
             case "Shield":
                 if (playerHealth != null)
-                    playerHealth.shieldActive = true;
+                    playerHealth.SheildActivate();
                 break;
 
             default:
@@ -59,7 +59,7 @@ public class PowerUpEffect : MonoBehaviour
 
             case "Shield":
                 if (playerHealth != null)
-                    playerHealth.shieldActive = false;
+                    playerHealth.SheildActivate();
                 break;
 
                 // Heal effects are instant; no removal needed.

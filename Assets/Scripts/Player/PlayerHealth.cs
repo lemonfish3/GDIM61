@@ -16,6 +16,7 @@ public class PlayerHealth : MonoBehaviour
 
     private float timer = 0f;
     private GameObject[] enemies;
+    private GameObject shield; // child object of player
 
     public GameManager gameManager;
     public HealthBar healthBar;
@@ -81,6 +82,27 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+
+    public void SheildActivate()
+    {
+        shieldActive = !shieldActive;
+
+        if (shield == null)
+        {
+            shield = transform.Find("spr_shield_0")?.gameObject;
+        }
+
+        if (shield != null)
+        {
+            shield.SetActive(shieldActive);
+        }
+        else
+        {
+            Debug.LogWarning("Shield child object not found!");
+        }
+
+        Debug.Log("Shield is now " + (shieldActive ? "ACTIVE" : "INACTIVE"));
+    }
     public void Die()
     {
         CharacrerSwitch.Instance.SwitchToNextAliveCharacter();
