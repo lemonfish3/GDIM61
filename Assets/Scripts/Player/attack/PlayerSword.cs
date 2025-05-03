@@ -37,6 +37,7 @@ public class PlayerSword : MonoBehaviour
         isAttacking = false;
     }
 
+
     void SwingAttack()
     {
         Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(transform.position, attackRadius, enemyLayer);
@@ -46,14 +47,42 @@ public class PlayerSword : MonoBehaviour
         {
             if (enemy.CompareTag("Enemy"))
             {
-                Destroy(enemy.gameObject);
-                Debug.Log($"Destroyed enemy: {enemy.name}");
+                EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
+
+                if (enemyHealth != null)
+                {
+                    enemyHealth.TakeDamage(50f); 
+                    Debug.Log($"Damaged enemy: {enemy.name}");
+                }
 
                 if (EnemyCounter.Instance != null)
                 {
-                    EnemyCounter.Instance.EnemyDestroyed();
+                    EnemyCounter.Instance.EnemyDestroyed(); 
                 }
             }
         }
     }
 }
+
+
+//    void SwingAttack()
+//    {
+//        Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(transform.position, attackRadius, enemyLayer);
+//        Debug.Log($"Hit {enemiesHit.Length} enemies");
+
+//        foreach (Collider2D enemy in enemiesHit)
+//        {
+
+//            if (enemy.CompareTag("Enemy"))
+//            {
+//                Destroy(enemy.gameObject);
+//                Debug.Log($"Destroyed enemy: {enemy.name}");
+
+//                if (EnemyCounter.Instance != null)
+//                {
+//                    EnemyCounter.Instance.EnemyDestroyed();
+//                }
+//            }
+//        }
+//    }
+//}
