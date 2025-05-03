@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 491246821120643640}
   - component: {fileID: 6121787227952199214}
   - component: {fileID: 5956537053982849659}
+  - component: {fileID: -3318179680987689320}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -134,6 +135,7 @@ MonoBehaviour:
   spawnRadius: 10
   EnemyWeaponPrefab: {fileID: 7645062700223047566, guid: 373e54de8712e10439392ca5568f54e0, type: 3}
   shootInterval: 2
+  itemDropPrefab: {fileID: 641609697382818553, guid: aafcbf102460d084199598b9344ee30a, type: 3}
 --- !u!70 &6121787227952199214
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -193,3 +195,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-3318179680987689320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4803823973604860540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6449836718d04a440b5f4c0a404b9c22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 50

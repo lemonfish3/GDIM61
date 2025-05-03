@@ -1,4 +1,6 @@
 using System;
+using System.Diagnostics;
+using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +14,8 @@ public class EnemyAI : MonoBehaviour
     public GameObject EnemyWeaponPrefab;
     public float shootInterval = 2f;
     private float shootTimer = 0f;
+
+    public GameObject itemDropPrefab;
 
     void Start()
     {
@@ -57,6 +61,24 @@ public class EnemyAI : MonoBehaviour
             proj.SetDirection(direction);
         }
     }
+
+    public void Die()
+    {
+        UnityEngine.Debug.Log("Enemy died! Scene: " + SceneManager.GetActiveScene().name);
+
+        if (SceneManager.GetActiveScene().name == "ChallengeWorld" && itemDropPrefab != null)
+        {
+            UnityEngine.Debug.Log("Dropping item!");
+            Instantiate(itemDropPrefab, transform.position, Quaternion.identity);
+        }
+        else
+        {
+            UnityEngine.Debug.Log("Did not drop item: either wrong scene or prefab is null.");
+        }
+
+        Destroy(gameObject);
+    }
+
 
     bool IsVisibleOnScreen()
     {

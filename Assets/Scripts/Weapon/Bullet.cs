@@ -5,6 +5,8 @@ public class Bullet : MonoBehaviour
     public Vector2 direction;
     public float speed = 10f;
     public float lifeTime = 2f;
+    //new
+    public float damage = 50f;
 
     private void Start()
     {
@@ -21,8 +23,19 @@ public class Bullet : MonoBehaviour
         if (other.CompareTag("Enemy")) // or other collision logic
         {
             Debug.Log("Bullet hit enemy!");
-            Destroy(other.gameObject);  // destroy the enemy
+            // new: apply damage (will trigger Die() if health <= 0)
+            EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
+
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(damage);
+            }
             Destroy(gameObject);
+            
+
+       
+            //Destroy(other.gameObject);  // destroy the enemy
+           // Destroy(gameObject);
 
             if (EnemyCounter.Instance != null)
             {
