@@ -111,4 +111,10 @@ public class GameManager : MonoBehaviour
             GameOver();
         }
     }
+
+    public void LoadChallenge()
+    {
+        Debug.Log("load challenge");
+        SceneManager.LoadScene("ChallengeWorld");
+    }
 }

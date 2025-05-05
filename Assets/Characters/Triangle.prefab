@@ -248,7 +248,7 @@ MonoBehaviour:
   attackKey: 113
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 9
   attackDuration: 0.5
 --- !u!114 &1073496055161064193
 MonoBehaviour:
