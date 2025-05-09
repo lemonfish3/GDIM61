@@ -122,7 +122,7 @@ Transform:
   m_GameObject: {fileID: 2633370305967772840}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.043, y: 0.107, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -228,8 +228,8 @@ MonoBehaviour:
   currentHealth: 0
   healthText: {fileID: 0}
   damageInterval: 1
-  damagePerSecond: 10
-  damageRadius: 1
+  damagePerSecond: 5
+  damageRadius: 0.5
   gameManager: {fileID: 0}
   healthBar: {fileID: 0}
 --- !u!114 &-1465899460652853792
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c34b3b9cad01194d82db6622d64fde3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRadius: 2
+  attackRadius: 1
   attackKey: 113
   enemyLayer:
     serializedVersion: 2

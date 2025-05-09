@@ -24,13 +24,27 @@ public class PlayerShooter : MonoBehaviour
     {
         if (Input.GetKeyDown(fireKey) && Time.time - lastShotTime >= shootCooldown)
         {
-            Vector2 shootDirection = playerController.lastMoveDirection;
+            Transform closestEnemy = FindClosestEnemy();
+            if (closestEnemy != null)
+            {
+                Vector2 shootDirection = (closestEnemy.position - firePoint.position).normalized;
 
-            Debug.Log($"Shooting Direction: {shootDirection}");
-            Debug.DrawRay(firePoint.position, shootDirection * 2, Color.red, 1f);
+                Debug.Log($"Shooting towards: {closestEnemy.name} at {closestEnemy.position}");
+                Debug.DrawRay(firePoint.position, shootDirection * 2, Color.red, 1f);
 
-            Shoot(shootDirection);
-            lastShotTime = Time.time;
+                Shoot(shootDirection);
+                lastShotTime = Time.time;
+            }
+            else
+            {
+                Vector2 shootDirection = playerController.lastMoveDirection;
+
+                Debug.Log($"Shooting Direction: {shootDirection}");
+                Debug.DrawRay(firePoint.position, shootDirection * 2, Color.red, 1f);
+
+                Shoot(shootDirection);
+                lastShotTime = Time.time;
+            }
         }
     }
 
@@ -39,6 +53,26 @@ public class PlayerShooter : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
         Bullet bulletScript = bullet.GetComponent<Bullet>();
         bulletScript.direction = direction;
+    }
+
+    private Transform FindClosestEnemy()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        Transform closest = null;
+        float minDistance = Mathf.Infinity;
+        Vector2 currentPosition = transform.position;
+
+        foreach (GameObject enemy in enemies)
+        {
+            float distance = Vector2.Distance(currentPosition, enemy.transform.position);
+            if (distance < minDistance)
+            {
+                minDistance = distance;
+                closest = enemy.transform;
+            }
+        }
+
+        return closest;
     }
 }
 

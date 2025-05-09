@@ -3,10 +3,10 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public Vector2 direction;
-    public float speed = 10f;
+    public float speed = 5f;
     public float lifeTime = 2f;
     //new
-    public float damage = 50f;
+    public float damage = 5f;
 
     private void Start()
     {
@@ -37,10 +37,10 @@ public class Bullet : MonoBehaviour
             //Destroy(other.gameObject);  // destroy the enemy
            // Destroy(gameObject);
 
-            if (EnemyCounter.Instance != null)
-            {
-                EnemyCounter.Instance.EnemyDestroyed();
-            }
+            //if (EnemyCounter.Instance != null)
+            //{
+            //    EnemyCounter.Instance.EnemyDestroyed();
+            //}
         }
     }
 }

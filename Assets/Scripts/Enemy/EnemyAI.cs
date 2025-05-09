@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class EnemyAI : MonoBehaviour
 {
@@ -76,7 +77,16 @@ public class EnemyAI : MonoBehaviour
             UnityEngine.Debug.Log("Did not drop item: either wrong scene or prefab is null.");
         }
 
+        if (EnemyCounter.Instance != null)
+        {
+            EnemyCounter.Instance.EnemyDestroyed();
+        }
+        else
+        {
+            UnityEngine.Debug.LogWarning("EnemyCounter.Instance is null!");
+        }
         Destroy(gameObject);
+
     }
 
 
