@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameOver;
     public GameObject pauseButton;
     public GameObject powerBar;
+    // private int currentScene = 1;
 
     private List<GameObject> players = new List<GameObject>();  // List to track players
 
@@ -65,12 +66,12 @@ public class GameManager : MonoBehaviour
         powerBar.SetActive(true);
     }
 
-    public void Reset()
+    /*public void Reset()
     {
         Time.timeScale = 1f;
         currentState = GameState.Playing;
-        SceneManager.LoadScene("World 1");
-    }
+        SceneManager.LoadScene(currentScene);
+    }*/
 
     public void GameOver()
     {
@@ -112,8 +113,19 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
+    public void LoadWorld1()
+    {
+        Time.timeScale = 1f;
+        currentState = GameState.Playing;
+        SceneManager.LoadScene("World 1");
+    }
+
+
     public void LoadChallenge()
     {
+        Time.timeScale = 1f;
+        currentState = GameState.Playing;
         Debug.Log("load challenge");
         SceneManager.LoadScene("ChallengeWorld");
     }

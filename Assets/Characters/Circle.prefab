@@ -170,10 +170,9 @@ MonoBehaviour:
   shieldActive: 0
   maxHealth: 100
   currentHealth: 0
-  healthText: {fileID: 0}
   damageInterval: 1
   damagePerSecond: 10
-  damageRadius: 1
+  damageRadius: 0.5
   gameManager: {fileID: 0}
   healthBar: {fileID: 0}
 --- !u!114 &3327843510136239793
@@ -263,7 +262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 3126371534921854924, guid: 651dba6b5d5a4b0408969ecc57f88ba9, type: 3}
   firePoint: {fileID: 2236389239258317537}
-  shootCooldown: 0.5
+  shootCooldown: 1
   fireKey: 113
 --- !u!95 &8345360845485074065
 Animator:

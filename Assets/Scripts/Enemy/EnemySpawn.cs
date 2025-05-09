@@ -7,13 +7,14 @@ public class EnemySpawn : MonoBehaviour
     public GameObject enemyPrefab;
     public CharacrerSwitch characrerSwitch;
     public int maxEnemies = 3;
+    public int totalEnemiesSpawn = 10;
     public float spawnInterval = 2f;
 
     private List<GameObject> activeEnemies = new List<GameObject>();
     private float timer = 0f;
 
     private bool playerInside = false;
-
+    private int enemiesSpawned = 0;
 
     // Update is called once per frame
     void Update()
@@ -22,9 +23,10 @@ public class EnemySpawn : MonoBehaviour
         timer += Time.deltaTime;
         activeEnemies.RemoveAll(enemy =>  enemy == null); // destroy null entries
 
-        if (activeEnemies.Count < maxEnemies && timer >= spawnInterval)
+        if (activeEnemies.Count < maxEnemies && timer >= spawnInterval && enemiesSpawned <= totalEnemiesSpawn)
         {
             SpawnEnemy();
+            enemiesSpawned++;
             timer = 0f;
         }
     }

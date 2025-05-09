@@ -55,10 +55,10 @@ public class PlayerSword : MonoBehaviour
                     Debug.Log($"Damaged enemy: {enemy.name}");
                 }
 
-                if (EnemyCounter.Instance != null)
-                {
-                    EnemyCounter.Instance.EnemyDestroyed(); 
-                }
+                //if (EnemyCounter.Instance != null)
+                //{
+                //    EnemyCounter.Instance.EnemyDestroyed(); 
+                //}
             }
         }
     }
