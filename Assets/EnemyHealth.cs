@@ -1,12 +1,14 @@
 using System.Diagnostics;
 using UnityEngine;
-
+using UnityEngine.Events;
 public class EnemyHealth : MonoBehaviour
 {
     public float maxHealth = 50f;
     private float currentHealth;
     private EnemyAI enemyAI;
     public EnemyHealthBar healthBar;
+
+    public UnityEvent onDeath;
 
     private void Start()
     {
@@ -26,6 +28,7 @@ public class EnemyHealth : MonoBehaviour
         {
             UnityEngine.Debug.Log("Enemy health hit 0, calling Die()");
             enemyAI.Die();
+            onDeath?.Invoke();
         }
     }
     public void UpdateHealthUI()

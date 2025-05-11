@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveInput;
     public Vector2 lastMoveDirection = Vector2.right;
     public Animator animator;
+
+    public bool inputEnabled = true; //cutscene
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,7 +20,13 @@ public class PlayerController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    { //cutscene
+        if (!inputEnabled)
+        {
+            moveInput = Vector2.zero;
+            animator.SetFloat("xVelocity", 0);
+            return;
+        }
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
         moveInput = new Vector2(moveX, moveY).normalized;
@@ -47,4 +55,13 @@ public class PlayerController : MonoBehaviour
         rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
     }
 
+    public void EnablePlayerControl()
+    {
+        inputEnabled = true;
+    }
+
+    public void DisablePlayerControl()
+    {
+        inputEnabled = false;
+    }
 }

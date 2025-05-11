@@ -32,6 +32,10 @@ public class DialogueManager : MonoBehaviour
         ShowDialogue("Yes master, I would be honored.");
     }
 
+    public void ShowLine2_1()
+    {
+        ShowDialogue("Here's your first test. Use WASD to move around, and Q to attack the enemy.");
+    }
     public void ShowLine3()
     {
         ShowDialogue("That felt amazing…was it as great as it looked, master?");
@@ -39,7 +43,7 @@ public class DialogueManager : MonoBehaviour
 
     public void ShowLine4()
     {
-        ShowDialogue("Really? Am I that close?");
+        ShowDialogue("Yes, Vulcana. You're progressing at an unprecedented pace, but let's call it there for today.");
     }
 
     public void ShowLine5()
