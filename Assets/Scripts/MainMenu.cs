@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame () {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("World 1");
+        SceneManager.LoadScene("Prologue");
     }
 
     public void QuitGame() {
