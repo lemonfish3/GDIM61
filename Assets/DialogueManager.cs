@@ -34,7 +34,7 @@ public class DialogueManager : MonoBehaviour
 
     public void ShowLine2_1()
     {
-        ShowDialogue("Here's your first test. Use WASD to move around, and Q to attack the enemy.");
+        ShowDialogue("Very well, use Q to attack the dummy and WASD to move around.");
     }
     public void ShowLine3()
     {

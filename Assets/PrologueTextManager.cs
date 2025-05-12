@@ -19,6 +19,14 @@ public class PrologueTextManager : MonoBehaviour
         StartCoroutine(ShowTextSequence(lines));
     }
 
+    public void ShowMidWayText()
+    {
+        string[] lines = new string[]
+        {
+             "Vulcana continued her training over the coming months, never taking her mind off her goal…"
+        };
+        StartCoroutine(ShowTextSequence(lines));
+    }
     // Displays an array of text lines with fade in/out effect
     public IEnumerator ShowTextSequence(string[] lines, float fadeDuration = 1f, float displayTime = 3f)
     {
