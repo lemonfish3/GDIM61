@@ -23,15 +23,17 @@ public class SquarePlayerController : MonoBehaviour
         }
 
         moveDirection = new Vector2(moveX, moveY).normalized;
-        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        gun.AimAt(mouseWorldPosition);
+        //mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
 
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
 
-        Vector2 aimDirection = mousePosition - rb.position;
+        /*Vector2 aimDirection = mousePosition - rb.position;
         float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
-        rb.rotation = aimAngle;
+        rb.rotation = aimAngle;*/
     }
 }
