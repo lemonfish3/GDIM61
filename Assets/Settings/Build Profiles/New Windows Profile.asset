@@ -23,6 +23,8 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/menu.unity
   - m_enabled: 1
+    m_path: Assets/Scenes/Prologue.unity
+  - m_enabled: 1
     m_path: Assets/Scenes/World 1.unity
   - m_enabled: 1
     m_path: Assets/Scenes/ChallengeWorld.unity
