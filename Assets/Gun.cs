@@ -11,6 +11,7 @@ public class Gun : MonoBehaviour
     {
         GameObject GunBullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         GunBullet.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
+
     }
 
     //update

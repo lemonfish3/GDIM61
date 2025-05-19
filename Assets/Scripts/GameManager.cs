@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameOver;
     public GameObject pauseButton;
     public GameObject powerBar;
+    public GameObject mapPanel;
     // private int currentScene = 1;
 
     private List<GameObject> players = new List<GameObject>();  // List to track players
@@ -128,5 +129,14 @@ public class GameManager : MonoBehaviour
         currentState = GameState.Playing;
         Debug.Log("load challenge");
         SceneManager.LoadScene("ChallengeWorld");
+    }
+
+    public void ToggleMap()
+    {
+        if (mapPanel == null) return;
+
+        bool isActive = mapPanel.activeSelf;
+        mapPanel.SetActive(!isActive);
+        Time.timeScale = isActive ? 1f : 0f; // Resume if closing, pause if opening
     }
 }

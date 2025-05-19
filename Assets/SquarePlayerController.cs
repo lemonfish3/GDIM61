@@ -17,7 +17,7 @@ public class SquarePlayerController : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKeyDown(KeyCode.Q)) 
+        if (Input.GetKeyDown(KeyCode.Q) || Input.GetMouseButtonDown(0))
         {
             gun.Fire();
         }

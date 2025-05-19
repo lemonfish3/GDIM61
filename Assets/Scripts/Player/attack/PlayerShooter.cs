@@ -22,7 +22,7 @@ public class PlayerShooter : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(fireKey) && Time.time - lastShotTime >= shootCooldown)
+        if ((Input.GetKeyDown(fireKey) || Input.GetMouseButtonDown(0)) && Time.time - lastShotTime >= shootCooldown)
         {
             Transform closestEnemy = FindClosestEnemy();
             if (closestEnemy != null)

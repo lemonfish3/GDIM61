@@ -7,13 +7,17 @@ public class GunBullet : MonoBehaviour
     {
         Destroy(gameObject);
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D enemy)
     {
-        if (other.CompareTag("Enemy")) // or other collision logic
+        if (enemy.CompareTag("Enemy"))
         {
-            Debug.Log("Bullet hit enemy!");
-            Destroy(other.gameObject);  // destroy the enemy
-            Destroy(gameObject);
+            EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
+
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(50f);
+                Debug.Log($"Damaged enemy: {enemy.name}");
+            }
         }
     }
 }

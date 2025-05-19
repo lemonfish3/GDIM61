@@ -18,7 +18,7 @@ public class PlayerSword : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(attackKey) && !isAttacking)
+        if ((Input.GetKeyDown(attackKey) || Input.GetMouseButtonDown(0)) && !isAttacking)
         {
             StartCoroutine(AttackRoutine());
         }
