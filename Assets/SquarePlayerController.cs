@@ -8,30 +8,49 @@ public class SquarePlayerController : MonoBehaviour
     public Rigidbody2D rb;
     public Gun gun;
 
+
+
+    private Animator animator;
+
+    private bool isMoving = false;
+
+    public float walkDuration = 0.5f; //adjust to match walk animation length
+
     Vector2 moveDirection;
     Vector2 mousePosition;
 
+    void Start()
+    {
+        animator = GetComponent<Animator>(); 
+    }
+
     // Update is called once per frame
-void Update()
+    void Update()
 {
     float moveX = Input.GetAxisRaw("Horizontal");
     float moveY = Input.GetAxisRaw("Vertical");
+
+    moveDirection = new Vector2(moveX, moveY).normalized;
+
+    // walk animation control
+    isMoving = moveDirection.sqrMagnitude > 0;
+    animator.SetBool("isWalking", isMoving);
 
     if (Input.GetKeyDown(KeyCode.Q) || Input.GetMouseButtonDown(0))
     {
         gun.Fire();
     }
 
-    moveDirection = new Vector2(moveX, moveY).normalized;
     Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
     gun.AimAt(mouseWorldPosition);
 
-    // Flip player based on movement direction
+    // flip player
     if (moveX > 0.1f)
-        transform.localScale = new Vector3(2, 2, 1); // face right
-    else if (moveX < 0.1f)
-        transform.localScale = new Vector3(-2, 2, 1); // face left
+        transform.localScale = new Vector3(2, 2, 1);
+    else if (moveX < -0.1f)
+        transform.localScale = new Vector3(-2, 2, 1);
 }
+
 
 
     private void FixedUpdate()
