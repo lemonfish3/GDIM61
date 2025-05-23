@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d348aa4c765c6a40aaa60f4ebe9e218, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 8
   lastMoveDirection: {x: 1, y: 0}
   animator: {fileID: 6190700897249089332}
   inputEnabled: 1
@@ -194,6 +194,7 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 5984001410721578162}
   gun: {fileID: 7182437139290075319}
+  walkDuration: 0.5
 --- !u!50 &5984001410721578162
 Rigidbody2D:
   serializedVersion: 5

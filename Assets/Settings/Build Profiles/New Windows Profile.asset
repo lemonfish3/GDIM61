@@ -28,6 +28,8 @@ MonoBehaviour:
     m_path: Assets/Scenes/World 1.unity
   - m_enabled: 1
     m_path: Assets/Scenes/ChallengeWorld.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/level3.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings: []

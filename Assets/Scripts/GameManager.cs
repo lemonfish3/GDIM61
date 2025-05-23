@@ -122,6 +122,12 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("World 1");
     }
 
+    public void LoadWorld3()
+    {
+        Time.timeScale = 1f;
+        currentState = GameState.Playing;
+        SceneManager.LoadScene("level3");
+    }
 
     public void LoadChallenge()
     {
