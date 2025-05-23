@@ -12,21 +12,27 @@ public class SquarePlayerController : MonoBehaviour
     Vector2 mousePosition;
 
     // Update is called once per frame
-    void Update()
+void Update()
+{
+    float moveX = Input.GetAxisRaw("Horizontal");
+    float moveY = Input.GetAxisRaw("Vertical");
+
+    if (Input.GetKeyDown(KeyCode.Q) || Input.GetMouseButtonDown(0))
     {
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
-
-        if (Input.GetKeyDown(KeyCode.Q) || Input.GetMouseButtonDown(0))
-        {
-            gun.Fire();
-        }
-
-        moveDirection = new Vector2(moveX, moveY).normalized;
-        Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        gun.AimAt(mouseWorldPosition);
-        //mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        gun.Fire();
     }
+
+    moveDirection = new Vector2(moveX, moveY).normalized;
+    Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    gun.AimAt(mouseWorldPosition);
+
+    // Flip player based on movement direction
+    if (moveX > 0.1f)
+        transform.localScale = new Vector3(2, 2, 1); // face right
+    else if (moveX < 0.1f)
+        transform.localScale = new Vector3(-2, 2, 1); // face left
+}
+
 
     private void FixedUpdate()
     {
