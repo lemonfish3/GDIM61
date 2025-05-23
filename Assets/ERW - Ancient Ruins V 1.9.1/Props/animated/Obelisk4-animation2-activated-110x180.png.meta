@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -161,12 +161,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 22
-        width: 46
-        height: 151
+        x: 32
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_1
       rect:
         serializedVersion: 2
-        x: 141
-        y: 21
-        width: 46
-        height: 151
+        x: 64
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_2
       rect:
         serializedVersion: 2
-        x: 251
-        y: 20
-        width: 46
-        height: 151
+        x: 128
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -227,12 +227,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_3
       rect:
         serializedVersion: 2
-        x: 361
-        y: 19
-        width: 46
-        height: 151
+        x: 160
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -249,12 +249,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_4
       rect:
         serializedVersion: 2
-        x: 471
-        y: 19
-        width: 46
-        height: 151
+        x: 256
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -271,12 +271,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_5
       rect:
         serializedVersion: 2
-        x: 581
-        y: 18
-        width: 46
-        height: 151
+        x: 288
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -293,12 +293,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_6
       rect:
         serializedVersion: 2
-        x: 691
-        y: 18
-        width: 46
-        height: 151
+        x: 352
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -315,12 +315,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_7
       rect:
         serializedVersion: 2
-        x: 801
-        y: 18
-        width: 46
-        height: 151
+        x: 384
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -337,12 +337,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_8
       rect:
         serializedVersion: 2
-        x: 911
-        y: 18
-        width: 46
-        height: 151
+        x: 448
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -359,12 +359,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_9
       rect:
         serializedVersion: 2
-        x: 1021
-        y: 18
-        width: 46
-        height: 151
+        x: 480
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -381,12 +381,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_10
       rect:
         serializedVersion: 2
-        x: 1131
-        y: 19
-        width: 46
-        height: 151
+        x: 576
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -403,12 +403,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_11
       rect:
         serializedVersion: 2
-        x: 1241
-        y: 20
-        width: 46
-        height: 151
+        x: 608
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -425,12 +425,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_12
       rect:
         serializedVersion: 2
-        x: 1351
-        y: 21
-        width: 46
-        height: 151
+        x: 672
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -447,12 +447,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_13
       rect:
         serializedVersion: 2
-        x: 1461
-        y: 21
-        width: 46
-        height: 151
+        x: 704
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -469,12 +469,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_14
       rect:
         serializedVersion: 2
-        x: 1571
-        y: 22
-        width: 46
-        height: 151
+        x: 800
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -491,12 +491,12 @@ TextureImporter:
       name: Obelisk4-animation2-activated-110x180_15
       rect:
         serializedVersion: 2
-        x: 1681
-        y: 22
-        width: 46
-        height: 151
+        x: 832
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -509,11 +509,3531 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_16
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36e8a0fc4dc4407c9f737850244a7f8
+      internalID: -454275316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_17
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb177cdb08674041975055e83d32044
+      internalID: 237339823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c51107e8f27b483f9248d180f7f85b0
+      internalID: 802448307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_19
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4be4c0bf99647e6bf88560021c78fe
+      internalID: -7881267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_20
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39af33ba4ef8a4f2aabafa934e2063f4
+      internalID: 975521885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_21
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21f71e98d0c14ec19d8ed6c5008c941
+      internalID: 1780387347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_22
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5eb4f34cf13649ce8c39ae7a635efa0
+      internalID: 1928219686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_23
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0246a2df2010c4a9aa4e2b747fe1d93d
+      internalID: 930377895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_24
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005011b2fdf7c49d28e63ae169abe276
+      internalID: 1372839947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_25
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f414aea244b35402ea8f1730885bb954
+      internalID: -825761863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_26
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2308acecb0e74220a7d21bf1159b0c0
+      internalID: -1992402054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_27
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3064c5a61137340e68381aab96085bae
+      internalID: 407654705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_28
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19026d6d50837458a9f09c97e4b52aba
+      internalID: 1063581620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_29
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db6d205427c64ee9ae0e3daccd7ccc5
+      internalID: 1406628447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_30
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28e915472aed46b8b492b66bafb4866
+      internalID: -1616642582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_31
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506eac52566c74bb79b9c77b43a99604
+      internalID: 1476738643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b43d4dc7931402e865b6f8d31cd34d
+      internalID: 171208078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997517ac341fa417895a133fb42d07bf
+      internalID: 933238933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d7c46a680b34287b1ff4e4c26ad480
+      internalID: 1317063660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f6772d87a0e4e66b2d286e3970ad94
+      internalID: -2109765796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_36
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c9d42a1edb046c1a4010a258f89bc4
+      internalID: 1407787880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed28ba42742b84447858345b9e12e8d3
+      internalID: 1249452651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_38
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856d92bc263c148298e86cdeaac0fa51
+      internalID: -1087397323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_39
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94910eca258894d6c87c4538b683788c
+      internalID: 1039783712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d4a2394a988495d9836bfb9d058cbe
+      internalID: -592875435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_41
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b12f256252124521b81e35bf98f7593
+      internalID: 164816246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af160f327af4f433cad569803cd58703
+      internalID: -1013167782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_43
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239908744e16f496bb25e1c956ec1685
+      internalID: 342995628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_44
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7288cd048cb40af9996194921c28bd
+      internalID: 943536789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_45
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cac3527c7854f7ca3e9bac65ccc345
+      internalID: -1919364032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_46
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a02f6a638a94a2fbd86f3d4626e893
+      internalID: -50558763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_47
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa722a219da949938c065bd38a15f9c
+      internalID: -2030149163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_48
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f9b432b29854710a2ac06166019e37
+      internalID: 506558781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_49
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1c613fba0074ceba02553bef43dba4
+      internalID: -261905874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_50
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50949402de31440ea61231df127c9cc
+      internalID: -1917119177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_51
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400f02d26ee2f4aa88194965eab59c07
+      internalID: 776104724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_52
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affebf1ed5bee4b2683c3a44845e3d15
+      internalID: 213455913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_53
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68b2e03f68e14caa94bc6a558446ff1
+      internalID: -702638830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_54
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fea6406602b4683b87e922315972d4
+      internalID: -1198318075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_55
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01034e543856b4c97bfa4441520cc002
+      internalID: 1687072293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_56
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbe5abca4ead41509b41907fa26fcac
+      internalID: -391557919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_57
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81ff7632336f40a69948b4bdbdff55a
+      internalID: 1024773384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_58
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8ea1db453744228893da3fd0c4c082
+      internalID: -64738603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_59
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b13bd00b4d74584b1f3a38ffb4cbdf
+      internalID: -491032773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_60
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950ea94ae667f46ea8901fb836a89cb4
+      internalID: 2032983746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_61
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394a5a789f8c64ecd805f0a1282313de
+      internalID: -1627627011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_62
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fcea8674d6f460eae4cfde73ddbc77
+      internalID: -2111319481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_63
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c82277d4ebac4464b485a71294f5cb6
+      internalID: 1747360248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_64
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603b0299f05614206a3eedd6e3e2c5ce
+      internalID: 1829035473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_65
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03c8ef8c377a4b989567c532815e6c7
+      internalID: 104283984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72309487d91df415c9233e0878fb48b3
+      internalID: -935541235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_67
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d76c60ceb54845ef81172571d67de0f
+      internalID: -41455524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb67530f42c34aea8538a82575d2308
+      internalID: -279687242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b156225996714b779b984c9198a4c4d
+      internalID: -492387347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_70
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735b0bceba22f439ebf9768d5c568e48
+      internalID: 383397251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_71
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841a0a1c0e45b431b9fc4d0a6a2a64a9
+      internalID: 1855120817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_72
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39a99e5c133446119be4b2db05f3c46
+      internalID: -662279344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_73
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beae4f624c29045c5b41d068e5fdf81f
+      internalID: -1427323764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f1106906e414cc29fd06edc746ee41
+      internalID: 16426188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_75
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc02fe978aea47f2bfd8dd146c6cfd1
+      internalID: 852543937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_76
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4837ccb5c1fa4570b14494de13d8cba
+      internalID: -78733583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1fa46add16b446783c91c5cbda393d
+      internalID: 405767728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_78
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0583566e4188e4d2f92fbf2c6fb2169e
+      internalID: 1326703321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_79
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa229ea6f730444fae1fb4c2129584d
+      internalID: 1622931256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_80
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffaf52053ff2421f9e8217b709ca2f1
+      internalID: -780133890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_81
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f476525ca05f94c9db582bca64de51cd
+      internalID: 1945009774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_82
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfb84ffadcb2446e80a5116213c880e
+      internalID: 209254437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_83
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16122367268a4902bb5efd353e93596
+      internalID: -1361100521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_84
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1d4871f7f6b4f2fb9666ed163f72ec
+      internalID: -1535323590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_85
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d959551618e476dbce80086465d000
+      internalID: 618993467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_86
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8f248a7dab54b429e41e9c37469463
+      internalID: 707935275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_87
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7028c94da960a474492803f37683e437
+      internalID: -54538654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_88
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1e0aafb69f84551aaa53955e61efe3
+      internalID: 918925502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_89
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1609a3c9aef954d58af2c71979ac4a1f
+      internalID: 1345566528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_90
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cbf36aa72b2455daaa21e70a755c8d
+      internalID: -760667113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_91
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75edf2c7e0c1e42568c3a1ec1b05c4b3
+      internalID: 408180042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_92
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e26b979a47ff428a969566b966db299
+      internalID: -266571727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_93
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f18c442ccd74a34a459d6b5169c35c
+      internalID: -1596762757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_94
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f0a8951940b430e9ca78e20831cb38
+      internalID: -901031794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_95
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c71f76b317df4e18bc073aac680ed76
+      internalID: 1157586863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_96
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbbbd70a1d8d4a2fb1a0dad5deedb5d
+      internalID: -202100820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_97
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb01bc23968e4b15856738083bd232f
+      internalID: -1903030789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_98
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d611e47e983f444e8ac5f7eaaf3ebe92
+      internalID: -467841294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_99
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5251b3a3241412e9a70b62637a97bb
+      internalID: -646076927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_100
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21922743590f0437882726626f0a837e
+      internalID: -842130359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_101
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347e0b017789c4975891f06675e43f3d
+      internalID: 957168646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_102
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efcc3c49e57e44aebe6e836bc0a8d2e
+      internalID: 1161673537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75be8afecb89437ca6ca0e47baef561
+      internalID: -399767930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4c65d3018fa4830b0aa7e599a6dd92
+      internalID: -796499552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_105
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4fa00bea9f14e2abc380f1683cc538
+      internalID: -258659838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_106
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edbaf3e5cf3c470ab476b1129f2b3b7
+      internalID: 1320867736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fe9f77e6d6c4a5cbb35e0244168ce4
+      internalID: 1186940613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_108
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24d923e830e842f0b981be1633973e9
+      internalID: -852718260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_109
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca40d55dd70f4b068e91ae900bf9ded
+      internalID: -1353451021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_110
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0838fb2b2c248a591deddd16e07a14
+      internalID: 1631483776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_111
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead57cfea12c0460c99afd8fe1c0d602
+      internalID: 658776798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_112
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b121d708409d24cd893dbb11b1789704
+      internalID: -1033166912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_113
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8612e742809e946b4aac6629150231b6
+      internalID: 198264261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_114
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b4e49ff1cd74cb5ae88fc8d46e54d0
+      internalID: 221317535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_115
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dda2068736074cd29ed5b92ea0cb2ad
+      internalID: -743858040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_116
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5048016cf8e3f44c482ac2d939db5461
+      internalID: -380327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_117
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef556089ab6f4e4ebc23ca662c74202
+      internalID: 294179798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_118
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6e9db1d21ce40a08699d8d47828c0e
+      internalID: 1540954230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_119
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8fd659cdef545a68fcb2cee2e52d13
+      internalID: 1476123763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_120
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbe115a6322744f0813f2e984b260ec
+      internalID: 1808577622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_121
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d06b555e7ea4b728d768e4ad05c2a9
+      internalID: 1502112410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_122
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1343e85ef39d46a18d6c2960ec8a78c
+      internalID: -1743660708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_123
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba312e5e8e794ab196abee9165df9f1
+      internalID: 44431908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_124
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00d2006e3e604a0eafe852ad09b88bb
+      internalID: 1834189961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_125
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85403970745f94788a71347239f7311d
+      internalID: -1162524340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_126
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa079398096e9443188307b40dc069a0
+      internalID: 1034860511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_127
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e65d78b41584e4a945f9c010998b9f
+      internalID: -1298496644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_128
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf1491bf8ab2449781fc1e9830f75cd
+      internalID: -1995093097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_129
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c4c80c834db492b803366b4b854e5d
+      internalID: -1490521228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_130
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6140e2bd144f4839b559db335630139
+      internalID: -323902319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_131
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b2f7c42f2b647eeacf85ae4e48c8bb
+      internalID: 523549737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_132
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e44b55d6ae8240a6863555d4898854d
+      internalID: 981897719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_133
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d6f427372f947fdb127dd77c6f5ddb
+      internalID: 505219271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_134
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d299417193cc64d6ca71aeec3ba07a61
+      internalID: -620787617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_135
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9c8545310934dde84cd30072b0f8bc
+      internalID: -1257865524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_136
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2257cb78f884b2db5114f72400f97c
+      internalID: 695136626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_137
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da4858866c2141628a21f791bc7178e
+      internalID: 1254397309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_138
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf1a0043ae9f4239a8f3c376b5a490d
+      internalID: 1877397204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_139
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8cd4b5522074397a6ba962acd10b92
+      internalID: -823324575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_140
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6458325b3181e43b2b19e6cc3c91897b
+      internalID: 1160344076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_141
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ad5d8301920403480f90d66735b579
+      internalID: -735065364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_142
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97ce63d5f52049519cdcdfbdd86e1e0
+      internalID: -252496557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_143
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60425cf647bcc4c4db1595817aebd428
+      internalID: 2118374948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_144
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd91a3dd3f0d1484d9b96976e2b5d1d5
+      internalID: -568450088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_145
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45355862ca2fd4a59a7706081011e389
+      internalID: 180777580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_146
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204a3a194280349cfa8d00133b2d7a7e
+      internalID: 1924403654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_147
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e9344c540734851a836520b636a5b3
+      internalID: -1929964878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_148
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5511945a7a7744c288814a117bcc95e2
+      internalID: -1847453879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_149
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbc0d6a972be46508b25164d9425f18
+      internalID: 356944788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_150
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723557a89cffb44fca3f2bd464ae059f
+      internalID: -287112664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_151
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e588d66ca5d44a18d1eb2abeaec08c
+      internalID: 869876559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_152
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0aa3775526e747b982096aa7a89dbd9
+      internalID: -982922387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_153
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf36276c59204f7ea26cd8e63e5d537
+      internalID: 1110316277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_154
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb08118cab175408c8952ec3188b606b
+      internalID: -709040415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_155
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c641ddb83d32646e5af703b0360957d7
+      internalID: -396588179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_156
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74ac828bf89b49f59004c3a41a0fe7a
+      internalID: 1294708301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_157
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5040f75bfc3994c86ae583cf94a83de6
+      internalID: 291108249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_158
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b7b896d8dff42129c3bf02c1f7ffbf
+      internalID: -892108208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_159
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fa2c52a7bb24c08a08c3717eb6a957
+      internalID: 560528734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_160
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732f467fd7dd54bb8b207585d6885475
+      internalID: -119806941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_161
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f891ba19e1a2945f8bbfc37e3ccdbfcf
+      internalID: 1747672654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_162
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c3b4dd759394417b7f89ea21078d82
+      internalID: 593965519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_163
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83caf0afffe946a0bdc8b1558544b2e
+      internalID: 1264230021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_164
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc8721fba3bb4908aa92393f8b00ece
+      internalID: -799384566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_165
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4542fcdac8644944b3868de13bcbc22
+      internalID: -851621527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_166
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c373bd5b65bf4486ca68021579b59edb
+      internalID: 388239281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_167
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6683eadd67644ada6cf2c5e1b02cf7
+      internalID: 1261957423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_168
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2e96ff7e9134dc0a02de7b0205c9ab
+      internalID: -1539054206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_169
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e6ea4fe398f4fe1859c510fcd94453
+      internalID: -974318905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_170
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a35561c7dfff471998fa9ee66df416d
+      internalID: -1910959843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_171
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb2cbec908b546f2b1992fb1435b196
+      internalID: -832671232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_172
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d86449477087436ab9db337aa0df3a3
+      internalID: 1232052890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_173
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbd479c87e374f8197a51b56d68b7ab
+      internalID: -219779252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_174
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db504ae14bc94621a030e0f228fb9b1
+      internalID: 877482271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obelisk4-animation2-activated-110x180_175
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb8ed9f3c9c74eb883792c3ea796239
+      internalID: 624953251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f0ab9c2d2b3fd4692bdf595b61af51c6
     internalID: 0
     vertices: []
     indices: 
@@ -526,19 +4046,179 @@ TextureImporter:
       Obelisk4-animation2-activated-110x180_0: -5177428031125988351
       Obelisk4-animation2-activated-110x180_1: -5939887224333976018
       Obelisk4-animation2-activated-110x180_10: -5777094713311510760
+      Obelisk4-animation2-activated-110x180_100: -842130359
+      Obelisk4-animation2-activated-110x180_101: 957168646
+      Obelisk4-animation2-activated-110x180_102: 1161673537
+      Obelisk4-animation2-activated-110x180_103: -399767930
+      Obelisk4-animation2-activated-110x180_104: -796499552
+      Obelisk4-animation2-activated-110x180_105: -258659838
+      Obelisk4-animation2-activated-110x180_106: 1320867736
+      Obelisk4-animation2-activated-110x180_107: 1186940613
+      Obelisk4-animation2-activated-110x180_108: -852718260
+      Obelisk4-animation2-activated-110x180_109: -1353451021
       Obelisk4-animation2-activated-110x180_11: 4465466811964286157
+      Obelisk4-animation2-activated-110x180_110: 1631483776
+      Obelisk4-animation2-activated-110x180_111: 658776798
+      Obelisk4-animation2-activated-110x180_112: -1033166912
+      Obelisk4-animation2-activated-110x180_113: 198264261
+      Obelisk4-animation2-activated-110x180_114: 221317535
+      Obelisk4-animation2-activated-110x180_115: -743858040
+      Obelisk4-animation2-activated-110x180_116: -380327
+      Obelisk4-animation2-activated-110x180_117: 294179798
+      Obelisk4-animation2-activated-110x180_118: 1540954230
+      Obelisk4-animation2-activated-110x180_119: 1476123763
       Obelisk4-animation2-activated-110x180_12: 1192928181732017361
+      Obelisk4-animation2-activated-110x180_120: 1808577622
+      Obelisk4-animation2-activated-110x180_121: 1502112410
+      Obelisk4-animation2-activated-110x180_122: -1743660708
+      Obelisk4-animation2-activated-110x180_123: 44431908
+      Obelisk4-animation2-activated-110x180_124: 1834189961
+      Obelisk4-animation2-activated-110x180_125: -1162524340
+      Obelisk4-animation2-activated-110x180_126: 1034860511
+      Obelisk4-animation2-activated-110x180_127: -1298496644
+      Obelisk4-animation2-activated-110x180_128: -1995093097
+      Obelisk4-animation2-activated-110x180_129: -1490521228
       Obelisk4-animation2-activated-110x180_13: -9038852266420891558
+      Obelisk4-animation2-activated-110x180_130: -323902319
+      Obelisk4-animation2-activated-110x180_131: 523549737
+      Obelisk4-animation2-activated-110x180_132: 981897719
+      Obelisk4-animation2-activated-110x180_133: 505219271
+      Obelisk4-animation2-activated-110x180_134: -620787617
+      Obelisk4-animation2-activated-110x180_135: -1257865524
+      Obelisk4-animation2-activated-110x180_136: 695136626
+      Obelisk4-animation2-activated-110x180_137: 1254397309
+      Obelisk4-animation2-activated-110x180_138: 1877397204
+      Obelisk4-animation2-activated-110x180_139: -823324575
       Obelisk4-animation2-activated-110x180_14: 1217556915902249282
+      Obelisk4-animation2-activated-110x180_140: 1160344076
+      Obelisk4-animation2-activated-110x180_141: -735065364
+      Obelisk4-animation2-activated-110x180_142: -252496557
+      Obelisk4-animation2-activated-110x180_143: 2118374948
+      Obelisk4-animation2-activated-110x180_144: -568450088
+      Obelisk4-animation2-activated-110x180_145: 180777580
+      Obelisk4-animation2-activated-110x180_146: 1924403654
+      Obelisk4-animation2-activated-110x180_147: -1929964878
+      Obelisk4-animation2-activated-110x180_148: -1847453879
+      Obelisk4-animation2-activated-110x180_149: 356944788
       Obelisk4-animation2-activated-110x180_15: -1235216595680379462
+      Obelisk4-animation2-activated-110x180_150: -287112664
+      Obelisk4-animation2-activated-110x180_151: 869876559
+      Obelisk4-animation2-activated-110x180_152: -982922387
+      Obelisk4-animation2-activated-110x180_153: 1110316277
+      Obelisk4-animation2-activated-110x180_154: -709040415
+      Obelisk4-animation2-activated-110x180_155: -396588179
+      Obelisk4-animation2-activated-110x180_156: 1294708301
+      Obelisk4-animation2-activated-110x180_157: 291108249
+      Obelisk4-animation2-activated-110x180_158: -892108208
+      Obelisk4-animation2-activated-110x180_159: 560528734
+      Obelisk4-animation2-activated-110x180_16: -454275316
+      Obelisk4-animation2-activated-110x180_160: -119806941
+      Obelisk4-animation2-activated-110x180_161: 1747672654
+      Obelisk4-animation2-activated-110x180_162: 593965519
+      Obelisk4-animation2-activated-110x180_163: 1264230021
+      Obelisk4-animation2-activated-110x180_164: -799384566
+      Obelisk4-animation2-activated-110x180_165: -851621527
+      Obelisk4-animation2-activated-110x180_166: 388239281
+      Obelisk4-animation2-activated-110x180_167: 1261957423
+      Obelisk4-animation2-activated-110x180_168: -1539054206
+      Obelisk4-animation2-activated-110x180_169: -974318905
+      Obelisk4-animation2-activated-110x180_17: 237339823
+      Obelisk4-animation2-activated-110x180_170: -1910959843
+      Obelisk4-animation2-activated-110x180_171: -832671232
+      Obelisk4-animation2-activated-110x180_172: 1232052890
+      Obelisk4-animation2-activated-110x180_173: -219779252
+      Obelisk4-animation2-activated-110x180_174: 877482271
+      Obelisk4-animation2-activated-110x180_175: 624953251
+      Obelisk4-animation2-activated-110x180_18: 802448307
+      Obelisk4-animation2-activated-110x180_19: -7881267
       Obelisk4-animation2-activated-110x180_2: 6504572456471654048
+      Obelisk4-animation2-activated-110x180_20: 975521885
+      Obelisk4-animation2-activated-110x180_21: 1780387347
+      Obelisk4-animation2-activated-110x180_22: 1928219686
+      Obelisk4-animation2-activated-110x180_23: 930377895
+      Obelisk4-animation2-activated-110x180_24: 1372839947
+      Obelisk4-animation2-activated-110x180_25: -825761863
+      Obelisk4-animation2-activated-110x180_26: -1992402054
+      Obelisk4-animation2-activated-110x180_27: 407654705
+      Obelisk4-animation2-activated-110x180_28: 1063581620
+      Obelisk4-animation2-activated-110x180_29: 1406628447
       Obelisk4-animation2-activated-110x180_3: -4199441215782322477
+      Obelisk4-animation2-activated-110x180_30: -1616642582
+      Obelisk4-animation2-activated-110x180_31: 1476738643
+      Obelisk4-animation2-activated-110x180_32: 171208078
+      Obelisk4-animation2-activated-110x180_33: 933238933
+      Obelisk4-animation2-activated-110x180_34: 1317063660
+      Obelisk4-animation2-activated-110x180_35: -2109765796
+      Obelisk4-animation2-activated-110x180_36: 1407787880
+      Obelisk4-animation2-activated-110x180_37: 1249452651
+      Obelisk4-animation2-activated-110x180_38: -1087397323
+      Obelisk4-animation2-activated-110x180_39: 1039783712
       Obelisk4-animation2-activated-110x180_4: 6141366353917513131
+      Obelisk4-animation2-activated-110x180_40: -592875435
+      Obelisk4-animation2-activated-110x180_41: 164816246
+      Obelisk4-animation2-activated-110x180_42: -1013167782
+      Obelisk4-animation2-activated-110x180_43: 342995628
+      Obelisk4-animation2-activated-110x180_44: 943536789
+      Obelisk4-animation2-activated-110x180_45: -1919364032
+      Obelisk4-animation2-activated-110x180_46: -50558763
+      Obelisk4-animation2-activated-110x180_47: -2030149163
+      Obelisk4-animation2-activated-110x180_48: 506558781
+      Obelisk4-animation2-activated-110x180_49: -261905874
       Obelisk4-animation2-activated-110x180_5: -7918652948434010407
+      Obelisk4-animation2-activated-110x180_50: -1917119177
+      Obelisk4-animation2-activated-110x180_51: 776104724
+      Obelisk4-animation2-activated-110x180_52: 213455913
+      Obelisk4-animation2-activated-110x180_53: -702638830
+      Obelisk4-animation2-activated-110x180_54: -1198318075
+      Obelisk4-animation2-activated-110x180_55: 1687072293
+      Obelisk4-animation2-activated-110x180_56: -391557919
+      Obelisk4-animation2-activated-110x180_57: 1024773384
+      Obelisk4-animation2-activated-110x180_58: -64738603
+      Obelisk4-animation2-activated-110x180_59: -491032773
       Obelisk4-animation2-activated-110x180_6: 7995519259476882122
+      Obelisk4-animation2-activated-110x180_60: 2032983746
+      Obelisk4-animation2-activated-110x180_61: -1627627011
+      Obelisk4-animation2-activated-110x180_62: -2111319481
+      Obelisk4-animation2-activated-110x180_63: 1747360248
+      Obelisk4-animation2-activated-110x180_64: 1829035473
+      Obelisk4-animation2-activated-110x180_65: 104283984
+      Obelisk4-animation2-activated-110x180_66: -935541235
+      Obelisk4-animation2-activated-110x180_67: -41455524
+      Obelisk4-animation2-activated-110x180_68: -279687242
+      Obelisk4-animation2-activated-110x180_69: -492387347
       Obelisk4-animation2-activated-110x180_7: -1949813242413301018
+      Obelisk4-animation2-activated-110x180_70: 383397251
+      Obelisk4-animation2-activated-110x180_71: 1855120817
+      Obelisk4-animation2-activated-110x180_72: -662279344
+      Obelisk4-animation2-activated-110x180_73: -1427323764
+      Obelisk4-animation2-activated-110x180_74: 16426188
+      Obelisk4-animation2-activated-110x180_75: 852543937
+      Obelisk4-animation2-activated-110x180_76: -78733583
+      Obelisk4-animation2-activated-110x180_77: 405767728
+      Obelisk4-animation2-activated-110x180_78: 1326703321
+      Obelisk4-animation2-activated-110x180_79: 1622931256
       Obelisk4-animation2-activated-110x180_8: 3999701453428049565
+      Obelisk4-animation2-activated-110x180_80: -780133890
+      Obelisk4-animation2-activated-110x180_81: 1945009774
+      Obelisk4-animation2-activated-110x180_82: 209254437
+      Obelisk4-animation2-activated-110x180_83: -1361100521
+      Obelisk4-animation2-activated-110x180_84: -1535323590
+      Obelisk4-animation2-activated-110x180_85: 618993467
+      Obelisk4-animation2-activated-110x180_86: 707935275
+      Obelisk4-animation2-activated-110x180_87: -54538654
+      Obelisk4-animation2-activated-110x180_88: 918925502
+      Obelisk4-animation2-activated-110x180_89: 1345566528
       Obelisk4-animation2-activated-110x180_9: 5111883565428869387
+      Obelisk4-animation2-activated-110x180_90: -760667113
+      Obelisk4-animation2-activated-110x180_91: 408180042
+      Obelisk4-animation2-activated-110x180_92: -266571727
+      Obelisk4-animation2-activated-110x180_93: -1596762757
+      Obelisk4-animation2-activated-110x180_94: -901031794
+      Obelisk4-animation2-activated-110x180_95: 1157586863
+      Obelisk4-animation2-activated-110x180_96: -202100820
+      Obelisk4-animation2-activated-110x180_97: -1903030789
+      Obelisk4-animation2-activated-110x180_98: -467841294
+      Obelisk4-animation2-activated-110x180_99: -646076927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
