@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 7580894741167723522}
   - component: {fileID: 9027184174079300670}
   - component: {fileID: 7963181677724791709}
-  - component: {fileID: 5452816869094020834}
   - component: {fileID: 2511984557366632696}
+  - component: {fileID: 7643575514667662203}
   m_Layer: 0
   m_Name: EnemyWorld1
   m_TagString: Enemy
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayerID: 516831645
   m_SortingLayer: 5
   m_SortingOrder: 2
-  m_Sprite: {fileID: -5329291561793687059, guid: ba4f9be17dfca46f393f82d960e372ac, type: 3}
+  m_Sprite: {fileID: -9188847568476305365, guid: d2b459b0f1b7f4108bda76a771eb9580, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -174,28 +174,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
---- !u!95 &5452816869094020834
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7527910251374843943}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5e567f98d10fb4d47b321947e31b1c7b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &2511984557366632696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,6 +188,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 10
   healthBar: {fileID: 4337922819780812023}
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!95 &7643575514667662203
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7527910251374843943}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dfaf9872e5277684b8118dd1e17747b8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &9115006586737293145
 GameObject:
   m_ObjectHideFlags: 0
