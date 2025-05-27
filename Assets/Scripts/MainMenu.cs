@@ -10,7 +10,13 @@ public class MainMenu : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("Prologue");
     }
+    // public void ShowCredits() {
+    //     creditsPanel.SetActive(true);
+    // }
 
+    // public void HideCredits() {
+    //     creditsPanel.SetActive(false);
+    // }
     public void QuitGame() {
         Debug.Log ("QUIT");
         Application.Quit();

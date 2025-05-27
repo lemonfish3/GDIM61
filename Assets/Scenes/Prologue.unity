@@ -342974,7 +342974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2e99fe301b388347bea78d8ebf758a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: World 1
+  nextSceneName: CutScene 1
 --- !u!4 &1996792265
 Transform:
   m_ObjectHideFlags: 0
