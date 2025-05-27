@@ -439604,6 +439604,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemiesDestroyed: 0
   enemiesRequired: 10
+  timeLimit: 180
+  timerText: {fileID: 0}
+  activeInScene: level3
   enemyCountText: {fileID: 1268623633}
   levelCompleteScreen: {fileID: 1094598215}
 --- !u!1 &1451171983
