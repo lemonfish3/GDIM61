@@ -331575,7 +331575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -236}
+  m_AnchoredPosition: {x: -18, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1125626947
@@ -357910,6 +357910,14 @@ MonoBehaviour:
     m_Signals:
     - {fileID: 11400000, guid: 4ec8a70b3ed32b3488383b7d5ba69506, type: 2}
     - {fileID: 11400000, guid: 5ab0965a6b8ab16488ccca0c0c4d2529, type: 2}
+    - {fileID: 11400000, guid: daa3e50e2c6d8c349954ac33743b0c24, type: 2}
+    - {fileID: 11400000, guid: 032b187876a2cda46b512348bf17a452, type: 2}
+    - {fileID: 11400000, guid: 63a5b9594657a3348af0a9a1d0b6b907, type: 2}
+    - {fileID: 11400000, guid: 0d60dcc3a8c361d4e8310745bbf97951, type: 2}
+    - {fileID: 11400000, guid: fbc318b742168fa47a4345eb8211638b, type: 2}
+    - {fileID: 11400000, guid: bb7d7f8bfc2948145acd8a2780637dcb, type: 2}
+    - {fileID: 11400000, guid: e8846b3b76e578748a2b3bad8b1e87d5, type: 2}
+    - {fileID: 11400000, guid: 15337f4af1aa9d640980b2bda70e4cc1, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -357930,6 +357938,118 @@ MonoBehaviour:
         - m_Target: {fileID: 1940268102}
           m_TargetAssemblyTypeName: CutScene1Manager, Assembly-CSharp
           m_MethodName: ShowLine2
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1940268102}
+          m_TargetAssemblyTypeName: CutScene1Manager, Assembly-CSharp
+          m_MethodName: ShowLine3
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1940268102}
+          m_TargetAssemblyTypeName: CutScene1Manager, Assembly-CSharp
+          m_MethodName: ShowLine4
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1940268102}
+          m_TargetAssemblyTypeName: CutScene1Manager, Assembly-CSharp
+          m_MethodName: ShowLine5
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1940268102}
+          m_TargetAssemblyTypeName: CutScene1Manager, Assembly-CSharp
+          m_MethodName: ShowLine6
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1940268102}
+          m_TargetAssemblyTypeName: CutScene1Manager, Assembly-CSharp
+          m_MethodName: ShowLine7
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1940268102}
+          m_TargetAssemblyTypeName: CutScene1Manager, Assembly-CSharp
+          m_MethodName: ShowLine8
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1940268102}
+          m_TargetAssemblyTypeName: CutScene1Manager, Assembly-CSharp
+          m_MethodName: ShowLine9
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1940268102}
+          m_TargetAssemblyTypeName: CutScene1Manager, Assembly-CSharp
+          m_MethodName: ShowLine10
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
