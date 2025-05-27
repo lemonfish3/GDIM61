@@ -334827,19 +334827,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 272585101539250808, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 272585101539250808, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 272585101539250808, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 272585101539250808, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.55
+      value: -6.28
       objectReference: {fileID: 0}
     - target: {fileID: 272585101539250808, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -334877,22 +334877,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 272585101539250808, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 429753342958445806, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -1910025352020418626, guid: b4e3603469a084f9c816133158f62902, type: 3}
-    - target: {fileID: 429753342958445806, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2443732634429785805, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: dialogueKey
-      value: 102
-      objectReference: {fileID: 0}
     - target: {fileID: 2443732634429785805, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
       propertyPath: speakerName
       value: 
@@ -334913,39 +334897,11 @@ PrefabInstance:
       propertyPath: dialoguePanel
       value: 
       objectReference: {fileID: 1242110466}
-    - target: {fileID: 2443732634429785805, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: displayRadius
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2443732634429785805, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: dialogueLines.Array.size
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2443732634429785805, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: dialogueLines.Array.data[4].line
-      value: 'To use power ups, use keys: Z, X, C, V (right to left).'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2443732634429785805, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: dialogueLines.Array.data[7].line
-      value: 'Best of luck! '
-      objectReference: {fileID: 0}
-    - target: {fileID: 2443732634429785805, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: dialogueLines.Array.data[7].speaker
-      value: NPC
-      objectReference: {fileID: 0}
     - target: {fileID: 5926284962306601545, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 7139831045414346289, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7139831045414346289, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: dialogueKey
-      value: 102
-      objectReference: {fileID: 0}
-    - target: {fileID: 7139831045414346289, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
       propertyPath: speakerName
       value: 
       objectReference: {fileID: 47929943}
@@ -334965,45 +334921,10 @@ PrefabInstance:
       propertyPath: dialoguePanel
       value: 
       objectReference: {fileID: 1242110466}
-    - target: {fileID: 7139831045414346289, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: displayRadius
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7139831045414346289, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: dialogueLines.Array.data[0].speaker
-      value: Red Ruth Sparrow
-      objectReference: {fileID: 0}
-    - target: {fileID: 7139831045414346289, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: dialogueLines.Array.data[2].speaker
-      value: Red Ruth Sparrow
-      objectReference: {fileID: 0}
-    - target: {fileID: 7139831045414346289, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: dialogueLines.Array.data[3].speaker
-      value: Red Ruth Sparrow
-      objectReference: {fileID: 0}
-    - target: {fileID: 7139831045414346289, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: dialogueLines.Array.data[4].speaker
-      value: Red Ruth Sparrow
-      objectReference: {fileID: 0}
-    - target: {fileID: 7139831045414346289, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: dialogueLines.Array.data[5].speaker
-      value: Red Ruth Sparrow
-      objectReference: {fileID: 0}
-    - target: {fileID: 7922407291789276419, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: af70eac2c479f3840b7ea5f22d834550, type: 2}
-    m_RemovedComponents:
-    - {fileID: 7922407291789276419, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5926284962306601545, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1910659782}
-    - targetCorrespondingSourceObject: {fileID: 5926284962306601545, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1910659783}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
 --- !u!114 &1377966143 stripped
 MonoBehaviour:
@@ -357074,60 +356995,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.9653945, y: 0.9694023}
   m_EdgeRadius: 0
---- !u!1 &1910659776 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5926284962306601545, guid: c667312596f638b42bd42a21ec41eeb5, type: 3}
-  m_PrefabInstance: {fileID: 1369068778}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1910659782
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1910659776}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cd8206a6bd6803a4c8468d4944145e54, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!50 &1910659783
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1910659776}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1916012329
 GameObject:
   m_ObjectHideFlags: 0
