@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
+    private List<string> storyScenes = new List<string> {
+        "Prologue", "CutScene 1", "CutScene2", "CutScene 3", "CutScene 4"
+    };
     public enum GameState { Playing, Paused, GameOver }
     public GameState currentState = GameState.Playing;
     public GameObject pauseScreen;
@@ -33,6 +36,32 @@ public class GameManager : MonoBehaviour
             {
                 Resume();
                 pauseButton.SetActive(true);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            HandleStorySceneAdvance();
+        }
+    }
+
+    void HandleStorySceneAdvance()
+    {
+        string currentScene = SceneManager.GetActiveScene().name;
+
+        if (storyScenes.Contains(currentScene))
+        {
+            Debug.Log("skip scene");
+            int currentIndex = SceneManager.GetActiveScene().buildIndex;
+            int nextIndex = currentIndex + 1;
+
+            if (nextIndex < SceneManager.sceneCountInBuildSettings)
+            {
+                SceneManager.LoadScene(nextIndex);
+            }
+            else
+            {
+                ReturnMain();
             }
         }
     }
@@ -135,6 +164,26 @@ public class GameManager : MonoBehaviour
         currentState = GameState.Playing;
         Debug.Log("load challenge");
         SceneManager.LoadScene("ChallengeWorld");
+    }
+
+    public void LoadCut1()
+    {
+        SceneManager.LoadScene("CutScene 1");
+    }
+
+    public void LoadCut2()
+    {
+        SceneManager.LoadScene("CutScene2");
+    }
+
+    public void LoadCut3()
+    {
+        SceneManager.LoadScene("CutScene 3");
+    }
+
+    public void LoadCut4()
+    {
+        SceneManager.LoadScene("CutScene 4");
     }
 
     public void ToggleMap()

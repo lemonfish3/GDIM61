@@ -30971,7 +30971,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1059106516}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: LoadWorld3
+        m_MethodName: LoadCut3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
