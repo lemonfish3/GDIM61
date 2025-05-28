@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      convalescence_logo_0: 6350606225364127834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
