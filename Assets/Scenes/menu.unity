@@ -746,7 +746,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 133}
+  m_AnchoredPosition: {x: 20, y: 211.55}
   m_SizeDelta: {x: 922.0045, y: 359.4815}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &499973939
@@ -872,7 +872,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2082312510}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: Credit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2038,7 +2038,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1862684692
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2439,6 +2439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1695fb6dc037bc4fb49a92542cca072, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  creditBoard: {fileID: 1862684691}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
