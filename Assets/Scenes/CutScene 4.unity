@@ -20253,14 +20253,12 @@ PlayableDirector:
   m_GameObject: {fileID: 281457280}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 49e1322ca6506054b85a6e645e92f7b9, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 60129806b88829a4b8a3fec676d0b54c, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -2158346435831245580, guid: 49e1322ca6506054b85a6e645e92f7b9, type: 2}
-    value: {fileID: 1815750266}
+  m_SceneBindings: []
   m_ExposedReferences:
     m_References: []
 --- !u!4 &281457282
@@ -340299,23 +340297,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Events:
-    m_Signals:
-    - {fileID: 11400000, guid: 25f504f5cb8c55947a78a1ff84b4a085, type: 2}
-    m_Events:
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1815750267}
-          m_TargetAssemblyTypeName: PrologueTransition, Assembly-CSharp
-          m_MethodName: LoadNextScene
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+    m_Signals: []
+    m_Events: []
 --- !u!114 &1815750267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340328,7 +340311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2e99fe301b388347bea78d8ebf758a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: level3
+  nextSceneName: 
 --- !u!4 &1815750268
 Transform:
   m_ObjectHideFlags: 0
@@ -340666,6 +340649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1843434046}
   - component: {fileID: 1843434045}
+  - component: {fileID: 1843434047}
   m_Layer: 0
   m_Name: Cut Scene Manager
   m_TagString: Untagged
@@ -340703,6 +340687,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1843434047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843434044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f47df1f78111fa47b8f5b77caf15700, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1846520740
 GameObject:
   m_ObjectHideFlags: 0
