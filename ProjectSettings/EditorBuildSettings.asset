@@ -18,8 +18,14 @@ EditorBuildSettings:
     path: Assets/Scenes/World 1.unity
     guid: 194e3af11adf04ae5800be5ddc1940b4
   - enabled: 1
+    path: Assets/Scenes/CutScene2.unity
+    guid: a59256a984ac8b84682360a246f22b61
+  - enabled: 1
     path: Assets/Scenes/ChallengeWorld.unity
     guid: c8a4e2e8c7992ef4b898eeb535382b31
+  - enabled: 1
+    path: Assets/Scenes/CutScene 3.unity
+    guid: 17d2cdb20cb353c44a79c01f73991235
   - enabled: 1
     path: Assets/Scenes/level3.unity
     guid: 7eecca4451f24e546bf996ebc1b4bc32
