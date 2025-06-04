@@ -49,7 +49,7 @@ public class DialogueManager : MonoBehaviour
 
     public void ShowLine1()    { ShowDialogue("Very good Vulcana, you seem to be progressing faster than expected. Would you like to move on to the next step of your training?"); }
     public void ShowLine2()    { ShowDialogue("Yes master, I would be honored."); }
-    public void ShowLine2_1()  { ShowDialogue("Very well, use Q to attack the dummy and WASD to move around."); }
+    public void ShowLine2_1()  { ShowDialogue("Very well, use Q/click to attack the dummy and WASD/arrow keys to move around."); }
     public void ShowLine3()    { ShowDialogue("That felt amazing…was it as great as it looked, master?"); }
     public void ShowLine4()    { ShowDialogue("Yes, Vulcana. You're progressing at an unprecedented pace, but let's call it there for today."); }
     public void ShowLine5()    { ShowDialogue("Good morning Master, will I be moving forward to the next step of my training today?"); }

@@ -13,7 +13,7 @@ public class PrologueTextManager : MonoBehaviour
         string[] lines = new string[]
         {
             "The journey begins with Vulcana, the young fire witch,",
-            "training in the lands across the sea from the continent of Eldara..."
+            "training in the lands across the sea from the continent of Kaos..."
         };
 
         StartCoroutine(ShowTextSequence(lines));
