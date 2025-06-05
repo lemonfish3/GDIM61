@@ -11,7 +11,7 @@ public class CutsceneManager4 : MonoBehaviour
 
     private string[] dialogueLines = new string[]
 {
-    "*they approach the entrance to the Fallen God’s lair/where quest 3 takes place*",
+    " ",
     "Vulcana: Wait. Before we go further, there’s something I need to share with both of you.",
     "Moriko: What is it?",
     "Joanne: Don’t tell me you're going to quit when we’re so close to the end.",
@@ -43,7 +43,7 @@ public class CutsceneManager4 : MonoBehaviour
     "Joanne: …for Master.",
     "Moriko: …for my friends.",
     "Vulcana: …for Emor…and for you, Mother.",
-    "*gameplay commences* - players select ending"
+    " "
 };
 
 
