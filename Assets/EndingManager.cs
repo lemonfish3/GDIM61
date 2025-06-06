@@ -16,11 +16,11 @@ public class EndingManager : MonoBehaviour
         choicePanel.SetActive(false);
         endingText.gameObject.SetActive(false);
 
-        ending1Button.onClick.AddListener(() =>
-            SelectEnding("You chose to save the world. Peace and harmony return."));
-
         ending2Button.onClick.AddListener(() =>
-            SelectEnding("You chose to rule the world. Darkness spreads under your command."));
+            SelectEnding("The final blow lands, and the Fallen God—once Ahrmonia, goddess of Harmony—collapses in a storm of fire and ash. As her form fades, she reaches for her daughter, whispering a regretful apology. Vulcana does not flinch. With her mother’s death, the last tether to her divine origins is severed. The corrupted energy that once spread chaos across the land dissipates with her passing. Though the world begins to heal, Vulcana walks away from the ruins not as a savior, but as someone who chose certainty over mercy. She silenced the source of her corruption—but at a cost she will carry forever."));
+
+        ending1Button.onClick.AddListener(() =>
+            SelectEnding("Standing over the defeated god, Vulcana hesitates—then lowers her weapon. Reaching out, she channels her fire not to destroy, but to cleanse. The corruption burns away, revealing the true form of Ahrmonia: wounded, but still divine. Through her daughter’s compassion and strength, the goddess reawakens, her mind and spirit restored. A wave of harmony pulses across the land, healing what had been twisted. As light returns to the world, Vulcana knows she could have chosen vengeance—but instead, she chose hope. The fire within her no longer burns for destruction, but for renewal."));
     }
 
     // Call this from Timeline using a signal
